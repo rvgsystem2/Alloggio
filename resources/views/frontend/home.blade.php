@@ -181,6 +181,14 @@
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+            <style>
+                .swiper-button-next,
+                .swiper-button-prev {
+                    color: black !important;
+                    /* Changes the arrow color to black */
+                }
+            </style>
+
             <div class="relative w-full max-w-6xl mx-auto overflow-hidden bg-[#FAF7F2]">
                 <!-- Swiper Container -->
                 <div class="swiper mySwiper">
@@ -275,7 +283,6 @@
                 });
             </script>
 
-
             <div class="relative w-full max-w-screen-lg mx-auto">
                 <!-- Background Image -->
                 <div class="relative group overflow-hidden">
@@ -296,7 +303,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="max-w-screen-lg mx-auto py-16 px-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 text-center">

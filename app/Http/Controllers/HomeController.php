@@ -20,4 +20,19 @@ class HomeController extends Controller
     {
         return view('frontend.contact');
     }
+
+    public function standardRoom()
+    {
+        return view('frontend.standard');
+    }
+
+    // public function deluxeRoom()
+    // {
+    //     return view('rooms.deluxe');
+    // }
+
+    // public function luxuryRoom()
+    // {
+    //     return view('rooms.luxury');
+    // }
 }
