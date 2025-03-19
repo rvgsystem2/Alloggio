@@ -97,34 +97,56 @@
                     <!-- Slides -->
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
-                        <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Slide Image"
+                        <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
                         <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
-                                Island Resort / from $190
+                                House in Tambon Bo Put, Thailand
                             </h2>
                         </div>
                     </div>
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
-                        <img src="{{ asset('asset/images/slide (2).jpg') }}" alt="Slide Image"
+                        <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
                         <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
-                                Mountain Escape / from $250
+                                Apartment in Tambon Bo Put, Thailand
                             </h2>
                         </div>
                     </div>
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
-                        <img src="{{ asset('asset/images/slide (3).jpg') }}" alt="Slide Image"
+                        <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
                         <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
-                                Luxury Villa / from $300
+                                House in Mae Nam, Thailand
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
+                        data-slide>
+                        <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Slide Image"
+                            class="w-full h-screen object-cover">
+                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                            data-text>
+                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                                Apartment in Ko Samui District
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
+                        data-slide>
+                        <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="Slide Image"
+                            class="w-full h-screen object-cover">
+                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                            data-text>
+                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                                Apartment in Ko Samui District
                             </h2>
                         </div>
                     </div>
@@ -193,18 +215,19 @@
                 <!-- Swiper Container -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
+
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="bg-white p-4">
-                                <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Rustic Gem Room"
+                                <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Rustic Gem Room"
                                     class="w-full h-64 object-cover" />
                                 <div class="p-8 bg-[#f8f6f1]">
-                                    <h2 class="text-3xl font-serif font-normal text-gray-900">Rustic Gem</h2>
+                                    <h2 class="text-2xl font-serif font-normal text-gray-900">House in Tambon Bo Put,
+                                        Thailand</h2>
                                     <div class="text-sm text-gray-500">from <span
-                                            class="text-xl font-semibold text-gray-900">$38</span></div>
-                                    <p class="text-gray-600">40m² / 1-2 person</p>
-                                    <p class="text-gray-600 mb-6">Ut et rhoncus odio. Quisque pellentesque nisl leo, eget
-                                        ultricies nibh ullamcorper ut.</p>
+                                            class="text-xl font-semibold text-gray-900">₹1,892 / night</span></div>
+                                    <p class="text-gray-600">1 bedroom • 1 bed • 1 bath</p>
+                                    <p class="text-gray-600 mb-6">Gm Bungalow at Chaweng hill</p>
                                     <button
                                         class="uppercase tracking-wider text-gray-800 font-semibold text-sm flex items-center">Book
                                         Now <span class="material-icons ml-1">add</span></button>
@@ -215,15 +238,15 @@
                         <!-- Slide 2 -->
                         <div class="swiper-slide">
                             <div class="bg-white p-4">
-                                <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Maisonette Room"
+                                <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Maisonette Room"
                                     class="w-full h-64 object-cover" />
                                 <div class="p-8 bg-[#f8f6f1]">
-                                    <h2 class="text-3xl font-serif font-normal text-gray-900">Maisonette</h2>
+                                    <h2 class="text-2xl font-serif font-normal text-gray-900">Apartment in Tambon Bo Put
+                                    </h2>
                                     <div class="text-sm text-gray-500">from <span
-                                            class="text-xl font-semibold text-gray-900">$99</span></div>
-                                    <p class="text-gray-600">120m² / 1-6 person</p>
-                                    <p class="text-gray-600 mb-6">Ut et rhoncus odio. Quisque pellentesque nisl leo, eget
-                                        ultricies nibh ullamcorper ut.</p>
+                                            class="text-xl font-semibold text-gray-900">₹2,624 / night</span></div>
+                                    <p class="text-gray-600">Private room • 2 guests • 1 bedroom • 1 bed • 1 bathroom</p>
+                                    <p class="text-gray-600 mb-6">RePlay Residence D301</p>
                                     <button
                                         class="uppercase tracking-wider text-gray-800 font-semibold text-sm flex items-center">Book
                                         Now <span class="material-icons ml-1">add</span></button>
@@ -234,21 +257,59 @@
                         <!-- Slide 3 -->
                         <div class="swiper-slide">
                             <div class="bg-white p-4">
-                                <img src="{{ asset('asset/images/slide (2).jpg') }}" alt="Luxury Suite"
+                                <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Luxury Suite"
                                     class="w-full h-64 object-cover" />
                                 <div class="p-8 bg-[#f8f6f1]">
-                                    <h2 class="text-3xl font-serif font-normal text-gray-900">Luxury Suite</h2>
+                                    <h2 class="text-2xl font-serif font-normal text-gray-900">House in Mae Nam</h2>
                                     <div class="text-sm text-gray-500">from <span
-                                            class="text-xl font-semibold text-gray-900">$150</span></div>
-                                    <p class="text-gray-600">200m² / 1-8 person</p>
-                                    <p class="text-gray-600 mb-6">Experience ultimate luxury with our spacious suite,
-                                        featuring premium amenities.</p>
+                                            class="text-xl font-semibold text-gray-900">₹4,667 / night</span></div>
+                                    <p class="text-gray-600">Entire Place • 3 guests • 1 bedroom • 2 beds • 1 bathroom</p>
+                                    <p class="text-gray-600 mb-6">Beachfront Villa with Sunset</p>
                                     <button
                                         class="uppercase tracking-wider text-gray-800 font-semibold text-sm flex items-center">Book
                                         Now <span class="material-icons ml-1">add</span></button>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4">
+                                <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Luxury Suite"
+                                    class="w-full h-64 object-cover" />
+                                <div class="p-8 bg-[#f8f6f1]">
+                                    <h2 class="text-2xl font-serif font-normal text-gray-900">Apartment in Ko Samui
+                                        District</h2>
+                                    <div class="text-sm text-gray-500">from <span
+                                            class="text-xl font-semibold text-gray-900">₹4,207 / night</span></div>
+                                    <p class="text-gray-600">Private room • 4 guests • 2 bedrooms • 2 beds</p>
+                                    <p class="text-gray-600 mb-6">GM Apartments 2 Bedrooms</p>
+                                    <button
+                                        class="uppercase tracking-wider text-gray-800 font-semibold text-sm flex items-center">Book
+                                        Now <span class="material-icons ml-1">add</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4">
+                                <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="Luxury Suite"
+                                    class="w-full h-64 object-cover" />
+                                <div class="p-8 bg-[#f8f6f1]">
+                                    <h2 class="text-2xl font-serif font-normal text-gray-900">Apartment in Ko Samui
+                                        District</h2>
+                                    <div class="text-sm text-gray-500">from <span
+                                            class="text-xl font-semibold text-gray-900">₹2,054 / night</span></div>
+                                    <p class="text-gray-600">Private room • 2 guests • 1 bedroom • 1 bed • 1 bathroom</p>
+                                    <p class="text-gray-600 mb-6">Cozy Apartment GM8</p>
+                                    <button
+                                        class="uppercase tracking-wider text-gray-800 font-semibold text-sm flex items-center">Book
+                                        Now <span class="material-icons ml-1">add</span></button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                     <!-- Navigation Arrows -->
@@ -286,7 +347,7 @@
             <div class="relative w-full max-w-screen-lg mx-auto">
                 <!-- Background Image -->
                 <div class="relative group overflow-hidden">
-                    <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Interior & Exterior"
+                    <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Interior & Exterior"
                         class="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-105">
 
                     <!-- Text Overlay -->
@@ -294,7 +355,7 @@
                         class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-8 shadow-md transition-all duration-500 group-hover:translate-x-3 group-hover:shadow-lg">
                         <h2
                             class="text-4xl font-serif text-gray-900 transition-colors duration-500 group-hover:text-amber-700">
-                            Interior & Exterior</h2>
+                            House in Tambon Bo Put, Thailand</h2>
                         <button
                             class="mt-4 text-sm font-semibold tracking-wide text-gray-700 flex items-center transition-all duration-500 group-hover:text-amber-700">
                             READ MORE <span
@@ -360,7 +421,7 @@
             <div class="relative w-full max-w-screen-lg mx-auto">
                 <!-- Background Image -->
                 <div class="relative group overflow-hidden">
-                    <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Interior & Exterior"
+                    <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Interior & Exterior"
                         class="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-105">
 
                     <!-- Text Overlay -->
@@ -368,7 +429,7 @@
                         class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-8 shadow-md transition-all duration-500 group-hover:translate-x-3 group-hover:shadow-lg">
                         <h2
                             class="text-4xl font-serif text-gray-900 transition-colors duration-500 group-hover:text-amber-700">
-                            Interior & Exterior</h2>
+                            Apartment in Tambon Bo Put, Thailand</h2>
                         <button
                             class="mt-4 text-sm font-semibold tracking-wide text-gray-700 flex items-center transition-all duration-500 group-hover:text-amber-700">
                             READ MORE <span

@@ -8,25 +8,34 @@
     <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
-    <section class="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
-        <!-- Background Image -->
-        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-500"
-            style="background-image: url('{{ asset('asset/images/slide (1).jpg') }}');">
-            <!-- Darker Overlay -->
-            <div class="absolute inset-0 bg-opacity-60"></div>
+
+    <section class="relative w-full h-[300px] md:h-[400px]">
+        <!-- Background Image with Parallax Effect -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 transform hover:scale-105"
+            style="background-image: url('{{ asset('asset/images/slide (2).jpg') }}');">
+            <!-- Enhanced Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
         </div>
-    
-        <!-- Centered Content -->
+
+        <!-- Centered Content with Improved Animation -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-            <h1 class="text-white text-5xl md:text-6xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
-                About Us
+            <h1
+                class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+                <span class="inline-block hover:scale-105 transition-transform duration-300">A</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">B</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">O</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">U</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">T</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">&nbsp;</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">U</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">S</span>
             </h1>
-            <p class="text-white text-lg md:text-xl mt-4 opacity-90 max-w-2xl font-medium animate-fade-in delay-200">
-                Discover our story and what makes us unique.
+            <p class="text-white text-lg md:text-xl max-w-2xl mt-4 opacity-90 animate-fade-in-up">
+                Discover our journey, vision, and commitment to excellence.
             </p>
         </div>
     </section>
-    
+
 
     <section class="py-16 bg-white">
         <div class="max-w-4xl mx-auto text-center">
