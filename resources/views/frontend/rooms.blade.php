@@ -15,19 +15,11 @@
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <h1
                 class="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
-                <span class="inline-block hover:scale-105 transition-transform duration-300">S</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">T</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">A</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">N</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">D</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">A</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">R</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300">D</span>
-                <span class="inline-block hover:scale-105 transition-transform duration-300"> </span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">R</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">O</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">O</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">M</span>
+                <span class="inline-block hover:scale-105 transition-transform duration-300">S</span>
             </h1>
             <p class="text-white text-lg md:text-xl max-w-2xl mt-4 opacity-90 animate-fade-in-up">
                 Experience comfort and elegance in our well-furnished Standard Room.
@@ -45,7 +37,7 @@
 
         <div class="container mx-auto px-4 py-8">
             <h1 class="text-4xl font-bold text-gray-800 border-b-4 border-gray-300 pb-2 inline-block my-4">
-                Standard Rooms
+                Rooms
             </h1>
 
             <div class="flex flex-col lg:flex-row">

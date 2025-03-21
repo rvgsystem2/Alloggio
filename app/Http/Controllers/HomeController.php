@@ -41,9 +41,9 @@ class HomeController extends Controller
         return view('frontend.gallery');
     }
 
-    public function standardRoom()
+    public function rooms()
     {
-        return view('frontend.standard');
+        return view('frontend.rooms');
     }
 
     public function properties ()

@@ -10,10 +10,11 @@
             <!-- Enhanced Gradient Overlay -->
             <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
         </div>
-    
+
         <!-- Centered Content with Improved Animation -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-            <h1 class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+            <h1
+                class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
                 PROPERTY
             </h1>
             <p class="text-white text-lg md:text-xl max-w-2xl mt-4 opacity-90 animate-fade-in-up">
@@ -21,22 +22,31 @@
             </p>
         </div>
     </section>
-    
+
 
     <section class="bg-gray-100 py-12">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Showing 5 Properties</h2>
+            <div class="text-center mb-12">
+                <h2
+                    class="text-4xl font-extrabold bg-gradient-to-r from-gray-800 to-gray-500 text-transparent bg-clip-text">
+                    Showing 5 Properties
+                </h2>
+                <div class="w-20 h-1 bg-gray-600 mx-auto mt-4 rounded-full"></div>
+                <p class="text-gray-600 mt-2 text-lg">Discover top-rated properties tailored to your needs.</p>
+            </div>
+
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <!-- Property Card -->
                 <div
                     class="bg-white shadow-md rounded-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl">
-                    <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Property" class="w-full h-56 object-cover">
+                    <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Property"
+                        class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-lg font-semibold text-gray-900">Apartment in Ko Samui District</h3>
                         <p class="text-gray-600 mt-1">GM Apartments 2 Bedrooms</p>
                         <p class="text-gray-800 font-bold mt-3">₹4,409</p>
-                        <a href="{{route('properties.details')}}"
+                        <a href="{{ route('properties.details') }}"
                             class="mt-4 inline-block bg-gray-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">View
                             Details</a>
                     </div>
@@ -51,7 +61,7 @@
                         <h3 class="text-lg font-semibold text-gray-900">Cozy Apartment GM8</h3>
                         <p class="text-gray-600 mt-1">1 bedroom • 1 bed • 1 bath</p>
                         <p class="text-gray-800 font-bold mt-3">₹2,086</p>
-                        <a href="{{route('properties.details')}}"
+                        <a href="{{ route('properties.details') }}"
                             class="mt-4 inline-block bg-gray-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">View
                             Details</a>
                     </div>
@@ -66,7 +76,7 @@
                         <h3 class="text-lg font-semibold text-gray-900">Apartment in Tambon Bo Put</h3>
                         <p class="text-gray-600 mt-1">RePlay Residence D301</p>
                         <p class="text-gray-800 font-bold mt-3">₹2,676</p>
-                        <a href="{{route('properties.details')}}"
+                        <a href="{{ route('properties.details') }}"
                             class="mt-4 inline-block bg-gray-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">View
                             Details</a>
                     </div>
@@ -81,7 +91,7 @@
                         <h3 class="text-lg font-semibold text-gray-900">House in Mae Nam</h3>
                         <p class="text-gray-600 mt-1">Beachfront Villa with Sunset</p>
                         <p class="text-gray-800 font-bold mt-3">₹4,667</p>
-                        <a href="{{route('properties.details')}}"
+                        <a href="{{ route('properties.details') }}"
                             class="mt-4 inline-block bg-gray-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">View
                             Details</a>
                     </div>
@@ -96,7 +106,7 @@
                         <h3 class="text-lg font-semibold text-gray-900">House in Tambon Bo Put</h3>
                         <p class="text-gray-600 mt-1">GM Bungalow at Chaweng Hill</p>
                         <p class="text-gray-800 font-bold mt-3">₹1,892</p>
-                        <a href="{{route('properties.details')}}"
+                        <a href="{{ route('properties.details') }}"
                             class="mt-4 inline-block bg-gray-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">View
                             Details</a>
                     </div>

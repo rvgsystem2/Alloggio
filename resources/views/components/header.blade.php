@@ -20,7 +20,7 @@
     <!-- Navigation Menu -->
     <nav class="hidden md:flex space-x-8 text-sm text-gray-800 tracking-wider">
         <a href="{{ url('/') }}" class="hover:text-amber-700 transition duration-300 py-3">HOME</a>
-        <a href="{{ route('standard') }}" class="hover:text-amber-700 transition duration-300 py-3">ROOMS</a>
+        <a href="{{ route('rooms') }}" class="hover:text-amber-700 transition duration-300 py-3">ROOMS</a>
 
         <div class="relative group">
             <a href="#" class="hover:text-amber-700 transition duration-300 flex items-center py-3">
@@ -83,7 +83,7 @@
     <nav class="flex flex-col text-center py-4 px-6 space-y-2">
         <a href="{{ url('/') }}"
             class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">HOME</a>
-        <a href="{{ route('standard') }}"
+        <a href="{{ route('rooms') }}"
             class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">ROOMS</a>
 
         <!-- Pages Dropdown -->

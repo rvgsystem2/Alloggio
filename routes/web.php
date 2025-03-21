@@ -22,5 +22,5 @@ Route::get('/properties', [HomeController::class, 'properties'])->name('properti
 
 Route::get('/properties/details', [HomeController::class, 'propertiesdetails'])->name('properties.details');
 
-Route::get('/standard', [HomeController::class, 'standardRoom'])->name('standard');
+Route::get('/rooms', [HomeController::class, 'rooms'])->name('rooms');
 

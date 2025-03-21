@@ -21,7 +21,7 @@
         <!-- Centered Content with Improved Animation -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <h1
-                class="text-white text-3xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+                class="text-white text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
                 <span class="inline-block hover:scale-105 transition-transform duration-300">A</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">B</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">O</span>
@@ -73,83 +73,101 @@
         </div>
     </section>
 
-    <section class="py-16 bg-[#fdfaf5]">
+    <section class="py-20 bg-[#fdfaf5]">
         <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#2c2c2c]">Why Choose Us</h2>
+                <p class="text-gray-600 mt-2">Discover the benefits of staying with us</p>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start">
-                    <span class="material-icons-outlined text-[#b56a5d] text-4xl">
+                <div class="flex space-x-4 items-start group">
+                    <span
+                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
                         emoji_events
                     </span>
                     <div>
-                        <h3 class="text-lg font-semibold">High Rating</h3>
-                        <p class="text-gray-600">Vestibulum a blandit ex, in tempor dolor. Phasellus dolor nisl, volutpat
-                            sit amet mollis hendrerit.</p>
+                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
+                            High Rating
+                        </h3>
+                        <p class="text-gray-600">Enjoy top-rated stays with exceptional service and comfort.</p>
                     </div>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start">
-                    <span class="material-icons-outlined text-[#b56a5d] text-4xl">
+                <div class="flex space-x-4 items-start group">
+                    <span
+                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
                         nightlife
                     </span>
                     <div>
-                        <h3 class="text-lg font-semibold">Quiet Hours</h3>
-                        <p class="text-gray-600">Vestibulum a blandit ex, in tempor dolor. Phasellus dolor nisl, volutpat
-                            sit amet mollis hendrerit.</p>
+                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
+                            Quiet Hours
+                        </h3>
+                        <p class="text-gray-600">Relax with a peaceful atmosphere and dedicated quiet hours.</p>
                     </div>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start">
-                    <span class="material-icons-outlined text-[#b56a5d] text-4xl">
+                <div class="flex space-x-4 items-start group">
+                    <span
+                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
                         place
                     </span>
                     <div>
-                        <h3 class="text-lg font-semibold">Best Locations</h3>
-                        <p class="text-gray-600">Vestibulum a blandit ex, in tempor dolor. Phasellus dolor nisl, volutpat
-                            sit amet mollis hendrerit.</p>
+                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
+                            Best Locations
+                        </h3>
+                        <p class="text-gray-600">Stay in prime locations close to attractions and essentials.</p>
                     </div>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start">
-                    <span class="material-icons-outlined text-[#b56a5d] text-4xl">
+                <div class="flex space-x-4 items-start group">
+                    <span
+                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
                         event_available
                     </span>
                     <div>
-                        <h3 class="text-lg font-semibold">Free Cancellation</h3>
-                        <p class="text-gray-600">Vestibulum a blandit ex, in tempor dolor. Phasellus dolor nisl, volutpat
-                            sit amet mollis hendrerit.</p>
+                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
+                            Free Cancellation
+                        </h3>
+                        <p class="text-gray-600">Cancel hassle-free with flexible booking policies.</p>
                     </div>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start">
-                    <span class="material-icons-outlined text-[#b56a5d] text-4xl">
+                <div class="flex space-x-4 items-start group">
+                    <span
+                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
                         credit_card
                     </span>
                     <div>
-                        <h3 class="text-lg font-semibold">Payment Options</h3>
-                        <p class="text-gray-600">Vestibulum a blandit ex, in tempor dolor. Phasellus dolor nisl, volutpat
-                            sit amet mollis hendrerit.</p>
+                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
+                            Payment Options
+                        </h3>
+                        <p class="text-gray-600">Multiple payment methods for a seamless transaction.</p>
                     </div>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start">
-                    <span class="material-icons-outlined text-[#b56a5d] text-4xl">
+                <div class="flex space-x-4 items-start group">
+                    <span
+                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
                         card_giftcard
                     </span>
                     <div>
-                        <h3 class="text-lg font-semibold">Special Offers</h3>
-                        <p class="text-gray-600">Vestibulum a blandit ex, in tempor dolor. Phasellus dolor nisl, volutpat
-                            sit amet mollis hendrerit.</p>
+                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
+                            Special Offers
+                        </h3>
+                        <p class="text-gray-600">Exclusive deals and discounts for a great value stay.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <div class="bg-[#fdfaf5] relative overflow-hidden">
         <section class="py-20">
@@ -162,7 +180,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
                     <!-- Gathering -->
                     <div class="relative group overflow-hidden shadow-xl">
-                        <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Gathering"
+                        <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Gathering"
                             class="w-full h-96 object-cover transform transition duration-300 group-hover:scale-110">
                         <div class="absolute bottom-20 left-0 bg-white p-8 shadow-2xl w-64">
                             <h3 class="text-3xl font-semibold">Gathering</h3>
@@ -172,7 +190,7 @@
                     </div>
                     <!-- Nice Food -->
                     <div class="relative group overflow-hidden shadow-xl">
-                        <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Nice Food"
+                        <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Nice Food"
                             class="w-full h-96 object-cover transform transition duration-300 group-hover:scale-110">
                         <div class="absolute bottom-20 left-0 bg-white p-8 shadow-2xl w-64">
                             <h3 class="text-3xl font-semibold">Nice Food</h3>
@@ -183,7 +201,7 @@
                     </div>
                     <!-- Explore -->
                     <div class="relative group overflow-hidden shadow-xl">
-                        <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Explore"
+                        <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Explore"
                             class="w-full h-96 object-cover transform transition duration-300 group-hover:scale-110">
                         <div class="absolute bottom-20 left-0 bg-white p-8 shadow-2xl w-64">
                             <h3 class="text-3xl font-semibold">Explore</h3>
@@ -196,7 +214,7 @@
         </section>
     </div>
 
-    <div class="bg-[#fdfaf5] relative overflow-hidden">
+    <div class="bg-gray-200 relative overflow-hidden">
         <section class="py-16">
             <div class="max-w-4xl mx-auto text-center relative">
                 <!-- Slider Container -->

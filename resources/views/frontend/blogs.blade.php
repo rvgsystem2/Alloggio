@@ -54,28 +54,22 @@
                     </div>
                 </div>
                 <div class="p-6">
-                    <div class="flex items-center mb-3">
-                        <span class="text-sm text-gray-500">March 23, 2020</span>
-                        <span class="mx-2 text-gray-300">•</span>
-                        <span class="text-sm text-gray-500">5 min read</span>
+                    <div class="flex items-center mb-3 text-gray-500 text-sm">
+                        <span>March 23, 2020</span>
+                        <span class="mx-2">•</span>
+                        <span>5 min read</span>
                     </div>
-                    <h2 class="text-2xl font-bold mb-3 group-hover:text-gray-600 transition-colors duration-300">House in
-                        Tambon Bo Put</h2>
-                    <p class="text-gray-600 mb-4">Mountain House at Chaweng hill with shared Pool,
-                        Just 10 minutes ride to Central Samui & fishermen village, apartment comes with nice Mountain View
-                        and peaceful environment, we have restaurant just 10 steps to the house & We have motorbike for rent
-                        at our doorstep so you no need to find out anything outside, we are here to help you each and every
-                        moment for anything you needed.
-                        ...</p>
+                    <h2 class="text-2xl font-bold mb-3 group-hover:text-gray-600 transition-colors duration-300">
+                        House in Tambon Bo Put
+                    </h2>
+                    <p class="text-gray-600 mb-4">
+                        Mountain House at Chaweng hill with shared Pool, peaceful environment, and a stunning Mountain
+                        View...
+                    </p>
                     <div class="flex justify-between items-center">
                         <a href="#"
-                            class="text-black font-bold inline-block relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black group-hover:after:w-full after:transition-all">
+                            class="text-black font-bold relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black group-hover:after:w-full after:transition-all">
                             READ MORE
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block ml-1" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
                         </a>
                         <div class="flex space-x-2">
                             <span class="bg-gray-100 px-2 py-1 rounded text-xs">Food</span>
@@ -97,24 +91,22 @@
                     <div class="absolute bottom-4 left-4 bg-white px-4 py-1 rounded-full text-sm font-medium">Travel</div>
                 </div>
                 <div class="p-6">
-                    <div class="flex items-center mb-3">
-                        <span class="text-sm text-gray-500">March 23, 2020</span>
-                        <span class="mx-2 text-gray-300">•</span>
-                        <span class="text-sm text-gray-500">8 min read</span>
+                    <div class="flex items-center mb-3 text-gray-500 text-sm">
+                        <span>March 23, 2020</span>
+                        <span class="mx-2">•</span>
+                        <span>8 min read</span>
                     </div>
-                    <h2 class="text-2xl font-bold mb-3 group-hover:text-gray-600 transition-colors duration-300">Condominium in Tambon Bo Put
+                    <h2 class="text-2xl font-bold mb-3 group-hover:text-gray-600 transition-colors duration-300">
+                        Condominium in Tambon Bo Put
                     </h2>
-                    <p class="text-gray-600 mb-4">This place located at most popular area called Bo put, just 3 minutes ride to Fisherman's Village & 13 minutes to Central Samui mall located at Chaweng Beach, and just 2 minutes from the Bo put beach & Bangrak beach, It's suitable for those who looking for private space with modern style.
-                        ...</p>
+                    <p class="text-gray-600 mb-4">
+                        A modern private space near Bo Put beach, perfect for travelers seeking relaxation and
+                        convenience...
+                    </p>
                     <div class="flex justify-between items-center">
                         <a href="#"
-                            class="text-black font-bold inline-block relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black group-hover:after:w-full after:transition-all">
+                            class="text-black font-bold relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black group-hover:after:w-full after:transition-all">
                             READ MORE
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block ml-1" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
                         </a>
                         <div class="flex space-x-2">
                             <span class="bg-gray-100 px-2 py-1 rounded text-xs">Travel</span>
@@ -136,23 +128,21 @@
                     <div class="absolute bottom-4 left-4 bg-white px-4 py-1 rounded-full text-sm font-medium">Outdoor</div>
                 </div>
                 <div class="p-6">
-                    <div class="flex items-center mb-3">
-                        <span class="text-sm text-gray-500">March 23, 2020</span>
-                        <span class="mx-2 text-gray-300">•</span>
-                        <span class="text-sm text-gray-500">6 min read</span>
+                    <div class="flex items-center mb-3 text-gray-500 text-sm">
+                        <span>March 23, 2020</span>
+                        <span class="mx-2">•</span>
+                        <span>6 min read</span>
                     </div>
-                    <h2 class="text-2xl font-bold mb-3 group-hover:text-gray-600 transition-colors duration-300">House in Mae Nam</h2>
-                    <p class="text-gray-600 mb-4">Beachfront Villa with Sunset located at Bang Po Beach, it’s suitable for those who looking to stay at beach with peaceful weather & also very beautiful sunset, House is located just 10 steps to the beach and also Very delicious continental & Thai food restaurant just 20 steps from the house,
-                        We also provide services like motorbike rental, food ordering, transportation & Kayak Board, it’s just 20 minutes ride to Central Smaui & 30 minutes ride to Lamai & just 10 minutes ride from Nathon Pier...</p>
+                    <h2 class="text-2xl font-bold mb-3 group-hover:text-gray-600 transition-colors duration-300">
+                        House in Mae Nam
+                    </h2>
+                    <p class="text-gray-600 mb-4">
+                        A beachfront villa with a stunning sunset view, ideal for nature lovers seeking tranquility...
+                    </p>
                     <div class="flex justify-between items-center">
                         <a href="#"
-                            class="text-black font-bold inline-block relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black group-hover:after:w-full after:transition-all">
+                            class="text-black font-bold relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black group-hover:after:w-full after:transition-all">
                             READ MORE
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block ml-1" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
                         </a>
                         <div class="flex space-x-2">
                             <span class="bg-gray-100 px-2 py-1 rounded text-xs">Camping</span>

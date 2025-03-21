@@ -24,7 +24,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{ route('standard') }}"
+                <a href="{{ route('rooms') }}"
                     class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
                     ROOMS
                 </a>
@@ -61,18 +61,6 @@
                         <a href="{{ route('blogs') }}"
                             class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
                             Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
-                            Amenities
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
-                            Policies
                         </a>
                     </li>
                 </ul>

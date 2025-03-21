@@ -29,143 +29,160 @@
         </div>
     </section>
 
-   <!-- Hotel Services Overview -->
-<div class="container mx-auto px-4 py-16">
-    <div class="flex flex-col items-center mb-12">
-        <h2 class="text-4xl md:text-5xl font-bold text-center">Our Hotel Services</h2>
-        <div class="w-24 h-1 bg-black mt-4"></div>
-        <p class="text-gray-600 text-center mt-4 max-w-2xl">Experience luxury, comfort, and world-class hospitality with our exclusive services.</p>
-    </div>
+    <!-- Hotel Services Overview -->
+    <section class="py-20 bg-gradient-to-b from-[#fef8f3] to-[#fdfaf5]">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">Our Hotel Services</h2>
+            <div class="w-24 h-1 bg-[#b56a5d] mx-auto mt-4"></div>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Experience luxury, comfort, and world-class hospitality with our exclusive services.
+            </p>
 
-    <!-- Services Grid -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Service 1: Luxury Rooms -->
-        <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
-            <div class="relative overflow-hidden h-48 bg-black flex items-center justify-center">
-                <img src="room.jpg" alt="Luxury Rooms" class="h-full w-full object-cover">
-            </div>
-            <div class="p-6">
-                <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors duration-300">Luxury Rooms</h3>
-                <p class="text-gray-600 mb-4">Indulge in our spacious, elegantly designed rooms featuring premium amenities for a comfortable stay.</p>
-                <a href="#" class="text-black font-bold inline-block relative group-hover:underline">LEARN MORE</a>
-            </div>
-        </div>
-
-        <!-- Service 2: Fine Dining -->
-        <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
-            <div class="relative overflow-hidden h-48 bg-black flex items-center justify-center">
-                <img src="dining.jpg" alt="Fine Dining" class="h-full w-full object-cover">
-            </div>
-            <div class="p-6">
-                <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors duration-300">Fine Dining</h3>
-                <p class="text-gray-600 mb-4">Savor exquisite dishes crafted by world-class chefs in a luxurious ambiance.</p>
-                <a href="#" class="text-black font-bold inline-block relative group-hover:underline">LEARN MORE</a>
-            </div>
-        </div>
-
-        <!-- Service 3: Spa & Wellness -->
-        <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
-            <div class="relative overflow-hidden h-48 bg-black flex items-center justify-center">
-                <img src="spa.jpg" alt="Spa & Wellness" class="h-full w-full object-cover">
-            </div>
-            <div class="p-6">
-                <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors duration-300">Spa & Wellness</h3>
-                <p class="text-gray-600 mb-4">Relax and rejuvenate with our professional spa treatments and wellness programs.</p>
-                <a href="#" class="text-black font-bold inline-block relative group-hover:underline">LEARN MORE</a>
-            </div>
-        </div>
-
-        <!-- Service 4: Event & Conference Halls -->
-        <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
-            <div class="relative overflow-hidden h-48 bg-black flex items-center justify-center">
-                <img src="conference.jpg" alt="Event & Conference Halls" class="h-full w-full object-cover">
-            </div>
-            <div class="p-6">
-                <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors duration-300">Event & Conference Halls</h3>
-                <p class="text-gray-600 mb-4">Host successful events in our modern and spacious conference facilities.</p>
-                <a href="#" class="text-black font-bold inline-block relative group-hover:underline">LEARN MORE</a>
-            </div>
-        </div>
-
-        <!-- Service 5: Swimming Pool -->
-        <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
-            <div class="relative overflow-hidden h-48 bg-black flex items-center justify-center">
-                <img src="pool.jpg" alt="Swimming Pool" class="h-full w-full object-cover">
-            </div>
-            <div class="p-6">
-                <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors duration-300">Swimming Pool</h3>
-                <p class="text-gray-600 mb-4">Enjoy a refreshing dip in our luxurious pool with a stunning view.</p>
-                <a href="#" class="text-black font-bold inline-block relative group-hover:underline">LEARN MORE</a>
-            </div>
-        </div>
-
-        <!-- Service 6: Concierge & Travel Assistance -->
-        <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
-            <div class="relative overflow-hidden h-48 bg-black flex items-center justify-center">
-                <img src="concierge.jpg" alt="Concierge & Travel Assistance" class="h-full w-full object-cover">
-            </div>
-            <div class="p-6">
-                <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors duration-300">Concierge & Travel Assistance</h3>
-                <p class="text-gray-600 mb-4">Let our concierge assist you with travel bookings, local tours, and special requests.</p>
-                <a href="#" class="text-black font-bold inline-block relative group-hover:underline">LEARN MORE</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-    <!-- How We Work Section -->
-    <section class="bg-gray-100 py-16">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col items-center mb-12">
-                <h2 class="text-4xl md:text-5xl font-bold text-center">How We Work</h2>
-                <div class="w-24 h-1 bg-black mt-4"></div>
-                <p class="text-gray-600 text-center mt-4 max-w-2xl">Our proven process ensures high-quality content that
-                    meets your business goals</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
-                <!-- Step 1 -->
-                <div class="flex flex-col items-center text-center">
-                    <div
-                        class="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center text-2xl font-bold mb-4">
-                        1</div>
-                    <h3 class="text-xl font-bold mb-2">Discovery</h3>
-                    <p class="text-gray-600">We learn about your brand, audience, and goals to develop a tailored strategy
-                    </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
+                <!-- Service Card -->
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">hotel</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Luxury Rooms</h3>
+                        <p class="text-gray-600 mt-2">Indulge in elegantly designed rooms with premium amenities.</p>
+                    </div>
                 </div>
 
-                <!-- Step 2 -->
-                <div class="flex flex-col items-center text-center">
-                    <div
-                        class="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center text-2xl font-bold mb-4">
-                        2</div>
-                    <h3 class="text-xl font-bold mb-2">Strategy</h3>
-                    <p class="text-gray-600">We create a customized content plan aligned with your business objectives</p>
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">restaurant</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Fine Dining</h3>
+                        <p class="text-gray-600 mt-2">Savor exquisite dishes crafted by world-class chefs.</p>
+                    </div>
                 </div>
 
-                <!-- Step 3 -->
-                <div class="flex flex-col items-center text-center">
-                    <div
-                        class="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center text-2xl font-bold mb-4">
-                        3</div>
-                    <h3 class="text-xl font-bold mb-2">Creation</h3>
-                    <p class="text-gray-600">Our expert team produces high-quality content that engages your target
-                        audience</p>
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">spa</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Spa & Wellness</h3>
+                        <p class="text-gray-600 mt-2">Relax and rejuvenate with professional spa treatments.</p>
+                    </div>
                 </div>
 
-                <!-- Step 4 -->
-                <div class="flex flex-col items-center text-center">
-                    <div
-                        class="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center text-2xl font-bold mb-4">
-                        4</div>
-                    <h3 class="text-xl font-bold mb-2">Optimization</h3>
-                    <p class="text-gray-600">We analyze performance and refine our approach for continuous improvement</p>
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">business_center</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Conference Halls</h3>
+                        <p class="text-gray-600 mt-2">Host successful events in our modern facilities.</p>
+                    </div>
                 </div>
+
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">pool</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Swimming Pool</h3>
+                        <p class="text-gray-600 mt-2">Enjoy a refreshing dip with a stunning view.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">support_agent</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Concierge Service</h3>
+                        <p class="text-gray-600 mt-2">Let us assist you with travel bookings and tours.</p>
+                    </div>
+                </div>
+
+                <!-- New Services -->
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">local_parking</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Valet Parking</h3>
+                        <p class="text-gray-600 mt-2">Enjoy hassle-free parking with our valet service.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white shadow-lg rounded-xl p-8 transition duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="material-icons-outlined text-[#b56a5d] text-6xl mb-4 transition group-hover:scale-110">fitness_center</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Fitness Center</h3>
+                        <p class="text-gray-600 mt-2">Stay fit with our state-of-the-art gym facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <a href="#"
+                    class="bg-[#b56a5d] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#a15d51] transition">
+                    Explore More Services
+                </a>
             </div>
         </div>
     </section>
 
+    <!-- How We Work Section -->
+    <section class="py-20 bg-gradient-to-b from-[#fef8f3] to-[#fdfaf5]">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">How We Work</h2>
+            <div class="w-24 h-1 bg-[#b56a5d] mx-auto mt-4"></div>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Our proven process ensures high-quality service that meets your expectations.
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mt-12 max-w-6xl mx-auto">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center transition duration-300 hover:scale-105">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#b56a5d] text-white flex items-center justify-center text-2xl font-bold shadow-lg mb-4">
+                        1
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900">Discovery</h3>
+                    <p class="text-gray-600 mt-2">We learn about your needs and tailor a personalized strategy.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center transition duration-300 hover:scale-105">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#b56a5d] text-white flex items-center justify-center text-2xl font-bold shadow-lg mb-4">
+                        2
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900">Strategy</h3>
+                    <p class="text-gray-600 mt-2">A detailed plan is crafted to ensure success and efficiency.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center transition duration-300 hover:scale-105">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#b56a5d] text-white flex items-center justify-center text-2xl font-bold shadow-lg mb-4">
+                        3
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900">Execution</h3>
+                    <p class="text-gray-600 mt-2">We implement the plan with precision and high-quality service.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center text-center transition duration-300 hover:scale-105">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#b56a5d] text-white flex items-center justify-center text-2xl font-bold shadow-lg mb-4">
+                        4
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900">Optimization</h3>
+                    <p class="text-gray-600 mt-2">We analyze results and refine the process for continuous improvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     @include('components.footer')
