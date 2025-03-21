@@ -14,7 +14,7 @@
         <!-- Centered Content with Improved Animation -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <h1
-                class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+                class="text-white text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
                 <span class="inline-block hover:scale-105 transition-transform duration-300">S</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">E</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">R</span>
