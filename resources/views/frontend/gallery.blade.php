@@ -45,8 +45,13 @@
         </div>
     </div> --}}
 
-    <h2 class="text-3xl font-bold text-center my-8">Gallery</h2>
-
+    <div class="relative py-8">
+        <h2 class="text-4xl font-extrabold text-center text-gray-900 uppercase tracking-widest">
+            Gallery
+        </h2>
+        <div class="w-24 h-1 bg-black mx-auto mt-2"></div>
+    </div>
+    
     <!-- Gallery Grid -->
     <div class="container mx-auto px-4 py-16">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
