@@ -45,24 +45,27 @@
                     augue id, aliquet risus.
                 </p>
 
-                <h2 class="text-2xl font-semibold text-gray-700 mb-4">Call us <span class="text-gray-600">+66900553044</span></h2>
+                <h2 class="text-2xl font-semibold text-gray-700 mb-4">Call us <span
+                        class="text-gray-600">+66900553044</span></h2>
                 <p class="text-gray-500 mb-10 leading-relaxed">
                     Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duis mattis, vehicula
                     augue id, aliquet risus.
                 </p>
 
-                <h2 class="text-2xl font-semibold text-gray-700 mb-4">Visit us on <span class="text-gray-600">Apartment in Tambon Bo Put, Thailand</span></h2>
+                <h2 class="text-2xl font-semibold text-gray-700 mb-4">Visit us on <span class="text-gray-600">Apartment in
+                        Tambon Bo Put, Thailand</span></h2>
                 <p class="text-gray-500 mb-10 leading-relaxed">
                     Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duis mattis, vehicula
                     augue id, aliquet risus.
                 </p>
 
-                <!-- Google Map Embed -->
+                <!-- Google Map Embed - Tambon Bo Put, Thailand -->
                 <div class="mt-8">
-                    <iframe class="w-full h-80 shadow-lg"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6639686697066!2d12.494568315366792!3d41.90278357922085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f606f0fd5565b%3A0x15b8b1fecd1b6e0!2sVia%20Venti%20Settembre%2C%20Roma!5e0!3m2!1sen!2sit!4v1624567890123!5m2!1sen!2sit"
+                    <iframe class="w-full h-80 shadow-lg rounded-lg"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0869484232773!2d100.057048115328!3d9.535826693184094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305497de72bc507b%3A0x2b2be053698ec81f!2sBo%20Put%2C%20Ko%20Samui%20District%2C%20Surat%20Thani%2C%20Thailand!5e0!3m2!1sen!2sth!4v1624567890123!5m2!1sen!2sth"
                         allowfullscreen="" loading="lazy"></iframe>
                 </div>
+
             </div>
 
             <!-- Right Column (Contact Form) -->
