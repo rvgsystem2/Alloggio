@@ -14,7 +14,7 @@
         <!-- Centered Content with Improved Animation -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <h1
-                class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+                class="text-white text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
                 <span class="inline-block hover:scale-105 transition-transform duration-300">G</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">A</span>
                 <span class="inline-block hover:scale-105 transition-transform duration-300">L</span>
@@ -45,170 +45,176 @@
         </div>
     </div> --}}
 
-    <div class="relative py-8">
-        <h2 class="text-4xl font-extrabold text-center text-gray-900 uppercase tracking-widest">
-            Gallery
-        </h2>
-        <div class="w-24 h-1 bg-black mx-auto mt-2"></div>
-    </div>
-    
+
     <!-- Gallery Grid -->
-    <div class="container mx-auto px-4 py-16">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            <!-- Gallery Item 1 -->
-            <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80"
-                data-category="nature">
-                <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Nature Landscape"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
-                <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
-                    <h3
-                        class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                        House in Tambon Bo Put, Thailand</h3>
-                    <p
-                        class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
-                        Gm Bungalow at Chaweng hill</p>
-                    {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
+    <section>
+
+        <div class="relative py-10">
+            <h2
+                class="text-5xl font-extrabold bg-gradient-to-r from-gray-800 to-gray-500 text-transparent bg-clip-text text-center uppercase tracking-widest">
+                Gallery
+            </h2>
+            <div class="w-20 h-1 bg-gray-600 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="container mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Gallery Item 1 -->
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80"
+                    data-category="nature">
+                    <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Nature Landscape"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
+                        <h3
+                            class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            House in Tambon Bo Put, Thailand</h3>
+                        <p
+                            class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
+                            Gm Bungalow at Chaweng hill</p>
+                        {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Nature</span>
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Travel</span>
                     </div> --}}
+                    </div>
+                    <button
+                        class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
                 </div>
-                <button
-                    class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </button>
-            </div>
 
-            <!-- Gallery Item 2 -->
-            <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-96"
-                data-category="architecture">
-                <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Modern Building"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
-                <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
-                    <h3
-                        class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                        Condominium in Tambon Bo Put</h3>
-                    <p
-                        class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
-                        RePlay Residence D301</p>
-                    {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
+                <!-- Gallery Item 2 -->
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-96"
+                    data-category="architecture">
+                    <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Modern Building"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
+                        <h3
+                            class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            Condominium in Tambon Bo Put</h3>
+                        <p
+                            class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
+                            RePlay Residence D301</p>
+                        {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Architecture</span>
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">City</span>
                     </div> --}}
+                    </div>
+                    <button
+                        class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
                 </div>
-                <button
-                    class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </button>
-            </div>
 
-            <!-- Gallery Item 3 -->
-            <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80"
-                data-category="food">
-                <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Gourmet Meal"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
-                <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
-                    <h3
-                        class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                        House in Mae Nam, Thailand</h3>
-                    <p
-                        class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
-                        Beachfront Villa with Sunset</p>
-                    {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
+                <!-- Gallery Item 3 -->
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80"
+                    data-category="food">
+                    <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Gourmet Meal"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
+                        <h3
+                            class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            House in Mae Nam, Thailand</h3>
+                        <p
+                            class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
+                            Beachfront Villa with Sunset</p>
+                        {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Food</span>
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Dining</span>
                     </div> --}}
+                    </div>
+                    <button
+                        class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
                 </div>
-                <button
-                    class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </button>
-            </div>
 
-            <!-- Gallery Item 4 -->
-            <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-96"
-                data-category="travel">
-                <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Beach Scene"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
-                <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
-                    <h3
-                        class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                        Serviced apartment in Ko Samui </h3>
-                    <p
-                        class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
-                        Cozy Apartment GM8</p>
-                    {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
+                <!-- Gallery Item 4 -->
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-96"
+                    data-category="travel">
+                    <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Beach Scene"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
+                        <h3
+                            class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            Serviced apartment in Ko Samui </h3>
+                        <p
+                            class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
+                            Cozy Apartment GM8</p>
+                        {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Travel</span>
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Beach</span>
                     </div> --}}
+                    </div>
+                    <button
+                        class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
                 </div>
-                <button
-                    class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </button>
-            </div>
 
-            <!-- Gallery Item 5 -->
-            <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80"
-                data-category="nature">
-                <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="Forest View"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
-                <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
-                    <h3
-                        class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                        Serviced apartment in Ko Samui </h3>
-                    <p
-                        class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
-                        GM Apartments 2 Bedrooms</p>
-                    {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
+                <!-- Gallery Item 5 -->
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80"
+                    data-category="nature">
+                    <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="Forest View"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
+                        <h3
+                            class="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            Serviced apartment in Ko Samui </h3>
+                        <p
+                            class="text-white/80 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
+                            GM Apartments 2 Bedrooms</p>
+                        {{-- <div class="flex gap-2 mt-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Nature</span>
                         <span class="px-2 py-1 bg-white/25 backdrop-blur-sm rounded text-xs text-white">Forest</span>
                     </div> --}}
+                    </div>
+                    <button
+                        class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
                 </div>
+
+            </div>
+
+            <!-- Load More Button -->
+            <div class="flex justify-center mt-12">
                 <button
-                    class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white/50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    class="px-8 py-3 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300 rounded-full flex items-center">
+                    Load More
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
             </div>
-
         </div>
 
-        <!-- Load More Button -->
-        <div class="flex justify-center mt-12">
-            <button
-                class="px-8 py-3 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300 rounded-full flex items-center">
-                Load More
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-            </button>
-        </div>
-    </div>
+    </section>
 
     <!-- Image Viewer (Add the JavaScript for this functionality if needed) -->
     <div id="image-viewer" class="fixed inset-0 bg-black/90 z-50 hidden flex items-center justify-center">
