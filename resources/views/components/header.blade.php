@@ -69,62 +69,67 @@
 
 <!-- Mobile Navigation Menu -->
 <div id="mobile-menu"
-    class="fixed top-0 left-0 w-full h-full bg-white shadow-lg transform -translate-y-full transition-transform duration-500 ease-in-out md:hidden z-50">
-    <div class="flex justify-between items-center px-10 py-6 border-b border-gray-200">
-        <h1 class="text-3xl font-serif font-bold text-gray-900">
+    class="fixed top-0 left-0 w-full h-full bg-white shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out md:hidden z-50">
+    <div class="flex justify-between items-center px-6 py-4 border-b border-gray-300 bg-gray-100">
+        <h1 class="text-2xl font-serif font-bold text-gray-900">
             <span class="text-amber-700">Koh</span>Rooms
         </h1>
-        <button id="menu-close" class="text-gray-800 hover:text-amber-700 transition duration-300 p-2">
-            <i class="fa-solid fa-times text-2xl"></i>
+        <button id="menu-close"
+            class="text-gray-800 hover:text-amber-700 transition duration-200 p-2 rounded-full bg-gray-200">
+            <i class="fa-solid fa-times text-xl"></i>
         </button>
     </div>
 
-    <nav class="flex flex-col space-y-6 text-center py-12 px-10">
+    <nav class="flex flex-col text-center py-4 px-6 space-y-2">
         <a href="{{ url('/') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-300 py-2 text-lg">HOME</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">HOME</a>
         <a href="{{ route('standard') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-300 py-2 text-lg">ROOMS</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">ROOMS</a>
+
         <!-- Pages Dropdown -->
         <div class="relative">
             <button id="pages-toggle"
-                class="text-gray-800 hover:text-amber-700 transition duration-300 py-2 text-lg w-full flex justify-center items-center">
+                class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium w-full flex justify-center items-center border-b border-gray-200">
                 PAGES <i class="fa-solid fa-chevron-down ml-2 text-sm"></i>
             </button>
-            <div id="pages-dropdown" class="hidden flex-col space-y-4 mt-2">
+            <div id="pages-dropdown" class="hidden flex-col mt-1 bg-gray-100 p-2 rounded-md shadow-md">
                 <a href="{{ route('properties') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-lg">Property</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-1 text-lg">Property</a>
                 <a href="{{ route('about.us') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-lg">About Us</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-1 text-lg">About Us</a>
                 <a href="{{ route('services') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-lg">Services</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-1 text-lg">Services</a>
                 <a href="{{ route('faq') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-lg">FAQ</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-1 text-lg">FAQ</a>
             </div>
         </div>
+
         <a href="{{ route('gallery') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-300 py-2 text-lg">GALLERY</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">GALLERY</a>
         <a href="{{ route('blogs') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-300 py-2 text-lg">BLOG</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">BLOG</a>
         <a href="{{ route('contact.us') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-300 py-2 text-lg">CONTACT</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium">CONTACT</a>
     </nav>
 
-    <div class="absolute bottom-12 left-0 w-full text-center text-gray-700">
+    <div class="absolute bottom-8 left-0 w-full text-center text-gray-700 px-6">
         <a href="mailto:kohrooms@gmail.com"
-            class="flex items-center justify-center space-x-2 hover:text-amber-700 transition duration-300 mb-4">
+            class="flex items-center justify-center space-x-2 hover:text-amber-700 transition duration-200 mb-3 text-lg">
             <i class="fa-regular fa-envelope text-amber-600"></i>
             <span>kohrooms@gmail.com</span>
         </a>
-        <div class="flex items-center justify-center space-x-6 text-amber-600">
-            <a href="#" class="hover:text-amber-800 transition duration-300"><i
+        <div class="flex items-center justify-center space-x-4 text-amber-600 text-xl">
+            <a href="#" class="hover:text-amber-800 transition duration-200"><i
                     class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="hover:text-amber-800 transition duration-300"><i
+            <a href="#" class="hover:text-amber-800 transition duration-200"><i
                     class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="hover:text-amber-800 transition duration-300"><i
+            <a href="#" class="hover:text-amber-800 transition duration-200"><i
                     class="fa-brands fa-twitter"></i></a>
         </div>
     </div>
 </div>
+
+
 
 <script>
     document.getElementById('menu-toggle').addEventListener('click', () => {

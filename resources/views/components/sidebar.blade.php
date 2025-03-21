@@ -30,7 +30,7 @@
                 </a>
             </li>
             <!-- Pages Dropdown -->
-            <li class="relative group dropdown-container ml-4">
+            <li class="relative group dropdown-container">
                 <a href="#"
                     class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
                     PAGES
