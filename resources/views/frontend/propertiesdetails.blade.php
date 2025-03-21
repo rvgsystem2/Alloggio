@@ -3,66 +3,128 @@
 @section('content')
     @include('components.header')
 
+    <section class="relative w-full h-[300px] md:h-[400px]">
+        <!-- Background Image with Parallax Effect -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 transform hover:scale-105"
+            style="background-image: url('{{ asset('asset/images/properties-1.jpeg') }}');">
+            <!-- Enhanced Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
+        </div>
+
+        <!-- Centered Content with Improved Animation -->
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+            <h1
+                class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+                PROPERTY DETAILS
+            </h1>
+            <p class="text-white text-lg md:text-xl max-w-2xl mt-4 opacity-90 animate-fade-in-up">
+                Find all the details you need about this property
+            </p>
+        </div>
+    </section>
+
+
     <section class="bg-gray-100 py-12">
         <div class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
-            <!-- Property Details -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Apartment" 
-                    class="w-full h-[300px] sm:h-[400px] md:h-[450px] object-cover">
-                
-                <div class="p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 flex items-center">
-                        <i class="material-icons text-gray-700 mr-2">apartment</i> Apartment in Ko Samui District
-                    </h2>
-                    <p class="text-gray-700 text-base md:text-lg mt-2 flex items-center">
-                        <i class="material-icons text-gray-600 mr-2">hotel</i> GM Apartments 2 Bedrooms
-                    </p>
-                    <p class="text-gray-600 mt-3 text-base md:text-lg flex items-center">
-                        <i class="material-icons text-gray-600 mr-2">group</i> Private room • 4 guests • 2 bedrooms • 2 beds
-                    </p>
-                    <p class="text-gray-800 font-bold text-xl md:text-2xl mt-4 flex items-center">
-                        <i class="material-icons text-gray-800 mr-2">attach_money</i> ₹4,207 / Night
-                    </p>
-                    <span class="text-green-600 font-semibold text-base md:text-lg flex items-center">
-                        <i class="material-icons text-green-600 mr-2">savings</i> You're saving ₹588.98
-                    </span>
 
-                    <p class="mt-6 text-gray-700 leading-relaxed text-sm md:text-base">
-                        Cozy modern style apartment located at the heart of Samui. Just 10 minutes ride to Central Samui & 
-                        Fishermen Village. Comes with a nice Mountain View and peaceful environment. Restaurant on-site 
-                        serving authentic Thai food. Motorbike rentals available at the doorstep.
+            <!-- Property Details -->
+            <div class="bg-white shadow-md rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <!-- Property Image -->
+                <div class="relative">
+                    <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Apartment"
+                        class="w-full h-[250px] sm:h-[350px] md:h-[400px] object-cover">
+                    <span
+                        class="absolute top-3 left-3 bg-green-600 text-white text-xs md:text-sm px-3 py-1 rounded-md font-medium shadow">
+                        Best Deal
+                    </span>
+                </div>
+
+                <!-- Property Info -->
+                <div class="p-5 md:p-6">
+                    <!-- Title -->
+                    <h2 class="text-lg md:text-xl font-semibold text-gray-900 flex items-center gap-2">
+                        <i class="material-icons text-gray-600 text-base">apartment</i> Apartment in Ko Samui District
+                    </h2>
+
+                    <!-- Subtitle -->
+                    <p class="text-gray-700 text-sm md:text-base mt-1 flex items-center gap-2">
+                        <i class="material-icons text-gray-600 text-sm">hotel</i> GM Apartments • 2 Bedrooms
                     </p>
+
+                    <!-- Features -->
+                    <p class="text-gray-600 text-sm md:text-base mt-2 flex items-center gap-2">
+                        <i class="material-icons text-gray-600 text-sm">group</i> Private room • 4 guests • 2 bedrooms • 2
+                        beds
+                    </p>
+
+                    <!-- Price & Savings -->
+                    <div class="flex items-center justify-between mt-4">
+                        <p class="text-gray-900 font-bold text-lg md:text-xl flex items-center gap-2">
+                            <i class="material-icons text-gray-700 text-base">currency_rupee</i>₹4,207 / Night
+                        </p>
+                        <span class="text-green-600 font-medium text-sm md:text-base flex items-center gap-2">
+                            <i class="material-icons text-green-600 text-sm">savings</i> Save ₹588.98
+                        </span>
+                    </div>
+
+                    <!-- Description -->
+                    <p class="mt-4 text-gray-700 leading-relaxed text-sm md:text-base">
+                        Cozy modern-style apartment in the heart of Samui. Just 10 minutes to Central Samui & Fishermen
+                        Village.
+                        Enjoy a peaceful environment with mountain views, on-site dining, and motorbike rentals at your
+                        doorstep.
+                    </p>
+
+                    <!-- CTA Button -->
+                    <div class="mt-5">
+                        <a href="#bookingFormSection"
+                            class="block bg-gray-800 text-white text-sm md:text-base font-medium px-5 py-2.5 rounded-lg text-center 
+                           hover:bg-gray-900 transition-all duration-300 shadow-sm">
+                            Book Now
+                        </a>
+                    </div>
+
                 </div>
             </div>
 
             <!-- Amenities & Rules -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                <div class="bg-white p-6 md:p-8 shadow-lg rounded-lg">
-                    <h3 class="text-lg md:text-xl font-bold mb-4 flex items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+                <!-- Amenities Section -->
+                <div class="bg-white p-6 md:p-8 shadow-xl rounded-2xl border border-gray-200">
+                    <h3 class="text-lg md:text-xl font-bold mb-4 flex items-center text-gray-900">
                         <i class="material-icons text-gray-700 mr-2">check_circle</i> Amenities
                     </h3>
                     <ul class="grid grid-cols-2 gap-4 text-gray-700 text-sm md:text-base">
-                        <li><i class="material-icons text-gray-700 mr-2">ac_unit</i> Air conditioning</li>
-                        <li><i class="material-icons text-gray-700 mr-2">tv</i> TV</li>
-                        <li><i class="material-icons text-gray-700 mr-2">local_offer</i> Essentials</li>
-                        <li><i class="material-icons text-gray-700 mr-2">kitchen</i> Kitchen</li>
-                        <li><i class="material-icons text-gray-700 mr-2">pool</i> Pool</li>
-                        <li><i class="material-icons text-gray-700 mr-2">wifi</i> Wifi</li>
-                        <li><i class="material-icons text-gray-700 mr-2">content_cut</i> Hair Dryer</li>
-                        <li><i class="material-icons text-gray-700 mr-2">restaurant</i> Cooking basics</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">ac_unit</i> Air
+                            conditioning</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">tv</i> TV</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">local_offer</i>
+                            Essentials</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">kitchen</i> Kitchen</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">pool</i> Pool</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">wifi</i> Wifi</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">content_cut</i> Hair
+                            Dryer</li>
+                        <li class="flex items-center"><i class="material-icons text-gray-600 mr-2">restaurant</i> Cooking
+                            basics</li>
                     </ul>
                 </div>
 
-                <div class="bg-white p-6 md:p-8 shadow-lg rounded-lg">
-                    <h3 class="text-lg md:text-xl font-bold mb-4 flex items-center">
+                <!-- Home Rules & Cancellation Policy -->
+                <div class="bg-white p-6 md:p-8 shadow-xl rounded-2xl border border-gray-200">
+                    <h3 class="text-lg md:text-xl font-bold mb-3 flex items-center text-gray-900">
                         <i class="material-icons text-gray-700 mr-2">gavel</i> Home Rules
                     </h3>
-                    <p class="text-gray-700 text-sm md:text-base">Contact us before 1 hour of check-in time.</p>
+                    <p class="text-gray-700 text-sm md:text-base leading-relaxed">
+                        Please contact us at least 1 hour before check-in time.
+                    </p>
 
-                    <h3 class="text-lg md:text-xl font-bold mt-4 flex items-center">
+                    <h3 class="text-lg md:text-xl font-bold mt-6 flex items-center text-gray-900">
                         <i class="material-icons text-gray-700 mr-2">policy</i> Cancellation Policy
                     </h3>
-                    <p class="text-gray-700 text-sm md:text-base">Non-Refundable Booking</p>
+                    <p class="text-gray-700 text-sm md:text-base leading-relaxed">
+                        This booking is non-refundable.
+                    </p>
                 </div>
             </div>
 
@@ -76,14 +138,16 @@
             </div>
 
             <!-- Booking Form -->
-            <div class="bg-white p-6 md:p-8 shadow-xl rounded-2xl mt-10">
+            <div id="bookingFormSection" class="bg-white p-6 md:p-8 shadow-xl rounded-2xl mt-10">
                 <h3 class="text-lg md:text-2xl font-bold mb-4">Book Now</h3>
                 <form>
                     <label class="block text-gray-700 font-semibold">Check-in Date:</label>
-                    <input type="date" class="w-full p-3 border border-gray-300 rounded-lg mb-4 focus:ring-2 focus:ring-gray-500">
+                    <input type="date"
+                        class="w-full p-3 border border-gray-300 rounded-lg mb-4 focus:ring-2 focus:ring-gray-500">
 
                     <label class="block text-gray-700 font-semibold">Check-out Date:</label>
-                    <input type="date" class="w-full p-3 border border-gray-300 rounded-lg mb-4 focus:ring-2 focus:ring-gray-500">
+                    <input type="date"
+                        class="w-full p-3 border border-gray-300 rounded-lg mb-4 focus:ring-2 focus:ring-gray-500">
 
                     <label class="block text-gray-700 font-semibold">Guests:</label>
                     <select class="w-full p-3 border border-gray-300 rounded-lg mb-4">
@@ -93,7 +157,8 @@
                         <option>4 Guests</option>
                     </select>
 
-                    <button class="w-full bg-gray-800 text-white py-3 rounded-lg font-semibold hover:bg-black transition-all duration-300">
+                    <button
+                        class="w-full bg-gray-800 text-white py-3 rounded-lg font-semibold hover:bg-black transition-all duration-300">
                         Confirm Booking
                     </button>
                 </form>
@@ -103,17 +168,55 @@
             <div class="mt-12">
                 <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">More Properties from Koh Rooms</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                    @foreach ([2, 3, 4] as $index)
-                        <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300">
-                            <img src="{{ asset('asset/images/properties-' . $index . '.jpeg') }}" alt="Property"
-                                class="w-full h-60 object-cover">
-                            <div class="p-6">
-                                <h3 class="font-semibold text-gray-900">Property {{ $index }}</h3>
-                                <p class="text-gray-700">1 bedroom • 1 bed • 1 bath</p>
-                                <p class="text-gray-900 font-bold mt-3">₹{{ rand(2000, 5000) }}</p>
-                            </div>
+
+                    <!-- Property 1 -->
+                    <div
+                        class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300">
+                        <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Property"
+                            class="w-full h-60 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-gray-900">Condominium in Tambon Bo Put, Thailand</h3>
+                            <p class="text-gray-700">1 bedroom • 1 bed • 1 bath</p>
+                            <p class="text-gray-900 font-bold mt-3">₹2,661</p>
+                            <a href="#"
+                                class="mt-4 inline-block bg-gray-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                                See Details
+                            </a>
                         </div>
-                    @endforeach
+                    </div>
+
+                    <!-- Property 2 -->
+                    <div
+                        class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300">
+                        <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Property"
+                            class="w-full h-60 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-gray-900">House in Mae Nam, Thailand</h3>
+                            <p class="text-gray-700">1 bedroom • 2 beds • 1 bath</p>
+                            <p class="text-gray-900 font-bold mt-3">₹4,640</p>
+                            <a href="#"
+                                class="mt-4 inline-block bg-gray-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                                See Details
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Property 3 -->
+                    <div
+                        class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300">
+                        <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Property"
+                            class="w-full h-60 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-gray-900">Serviced apartment in Ko Samui</h3>
+                            <p class="text-gray-700">1 bedroom • 1 bed • 1 bath</p>
+                            <p class="text-gray-900 font-bold mt-3">₹2,074</p>
+                            <a href="#"
+                                class="mt-4 inline-block bg-gray-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                                See Details
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

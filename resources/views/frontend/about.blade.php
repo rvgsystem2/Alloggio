@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
 
+
     <section class="relative w-full h-[300px] md:h-[400px]">
         <!-- Background Image with Parallax Effect -->
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 transform hover:scale-105"

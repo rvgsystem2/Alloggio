@@ -3,6 +3,26 @@
 @section('content')
     @include('components.header')
 
+    <section class="relative w-full h-[300px] md:h-[400px]">
+        <!-- Background Image with Parallax Effect -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 transform hover:scale-105"
+            style="background-image: url('{{ asset('asset/images/slide (3).jpg') }}');">
+            <!-- Enhanced Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
+        </div>
+    
+        <!-- Centered Content with Improved Animation -->
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+            <h1 class="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest drop-shadow-2xl text-opacity-90 animate-fade-in">
+                PROPERTY
+            </h1>
+            <p class="text-white text-lg md:text-xl max-w-2xl mt-4 opacity-90 animate-fade-in-up">
+                Explore the best properties available
+            </p>
+        </div>
+    </section>
+    
+
     <section class="bg-gray-100 py-12">
         <div class="max-w-6xl mx-auto px-6">
             <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Showing 5 Properties</h2>
