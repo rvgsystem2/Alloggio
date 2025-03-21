@@ -2,12 +2,14 @@
 
 <header
     class="w-full bg-white shadow-lg px-10 md:px-8 py-6 flex items-center justify-between border-b border-gray-200 z-50">
+
     <!-- Left Section: Weather Info -->
     <div class="flex sm:hidden items-center space-x-2 text-gray-700 text-sm mr-4">
         <h1 class="text-3xl font-serif font-bold text-gray-900 tracking-wider">
             <span class="text-amber-700">Koh</span>Rooms
         </h1>
     </div>
+
 
     <div class="hidden sm:flex items-center space-x-2 text-gray-700 text-sm mr-4">
         <span class="tracking-wide">ROME</span>
@@ -21,7 +23,9 @@
         <a href="{{ route('rooms') }}" class="hover:text-amber-700 transition duration-300 py-3">ROOMS</a>
 
         <div class="relative group">
-            <a href="#" class="hover:text-amber-700 transition duration-300 flex items-center py-3">PAGES</a>
+            <a href="#" class="hover:text-amber-700 transition duration-300 flex items-center py-3">
+                PAGES
+            </a>
             <div
                 class="z-50 absolute left-1/2 transform -translate-x-1/2 mt-3 w-64 bg-white shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100">
                 <a href="{{ route('properties') }}"
