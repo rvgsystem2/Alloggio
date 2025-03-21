@@ -28,7 +28,7 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-12">
                 <h2
-                    class="text-4xl font-extrabold bg-gradient-to-r from-gray-800 to-gray-500 text-transparent bg-clip-text">
+                    class="text-4xl font-extrabold text-gray-600">
                     Showing 5 Properties
                 </h2>
                 <div class="w-20 h-1 bg-gray-600 mx-auto mt-4 rounded-full"></div>

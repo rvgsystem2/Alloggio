@@ -51,7 +51,7 @@
 
         <div class="relative py-10">
             <h2
-                class="text-5xl font-extrabold bg-gradient-to-r from-gray-800 to-gray-500 text-transparent bg-clip-text text-center uppercase tracking-widest">
+                class="text-5xl font-extrabold text-gray-600 text-center uppercase tracking-widest">
                 Gallery
             </h2>
             <div class="w-20 h-1 bg-gray-600 mx-auto mt-3 rounded-full"></div>
