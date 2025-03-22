@@ -31,7 +31,7 @@
             </p>
         </div>
     </section>
-
+    
     <!-- Contact Section -->
     <section class="container mx-auto px-6 md:px-12 py-20" style="font-family: 'Cormorant', serif;">
         <div class="grid md:grid-cols-2 gap-12 lg:gap-16">

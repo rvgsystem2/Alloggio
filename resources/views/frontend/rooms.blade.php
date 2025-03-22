@@ -43,6 +43,8 @@
             <div class="flex flex-col lg:flex-row">
                 <!-- Left Content Section (Room Details) -->
                 <div class="w-full lg:w-2/3 lg:pr-8">
+
+                    <!-- Card-1 -->
                     <div>
                         <!-- Room Image -->
                         <div class="relative">
@@ -75,7 +77,7 @@
                                 <span class="mr-2 text-gray-700">26m² / 1-2 person</span>
                             </div>
 
-                            <div class="grid grid-cols-5 gap-6 mt-6">
+                            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 mt-6">
                                 <div class="flex flex-col items-center">
                                     <i class="material-icons text-gray-600">tv</i>
                                     <span class="text-xs mt-1">TV</span>
@@ -90,11 +92,35 @@
                                 </div>
                                 <div class="flex flex-col items-center">
                                     <i class="material-icons text-gray-600">ac_unit</i>
-                                    <span class="text-xs mt-1">AC</span>
+                                    <span class="text-xs mt-1">Air Conditioning</span>
                                 </div>
                                 <div class="flex flex-col items-center">
                                     <i class="material-icons text-gray-600">local_laundry_service</i>
                                     <span class="text-xs mt-1">Laundry</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">cleaning_services</i>
+                                    <span class="text-xs mt-1">Cleaning Products</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">kitchen</i>
+                                    <span class="text-xs mt-1">Cooking Basics</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">king_bed</i>
+                                    <span class="text-xs mt-1">Essentials</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">wash</i>
+                                    <span class="text-xs mt-1">Washing Machine</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">content_cut</i>
+                                    <span class="text-xs mt-1">Hair Dryer</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">restaurant_menu</i>
+                                    <span class="text-xs mt-1">Dishes & Silverware</span>
                                 </div>
                             </div>
                         </div>
@@ -102,14 +128,16 @@
                         <!-- Book Now Button -->
                         <div class="mt-6">
                             <button
-                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center">
+                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center hover:bg-gray-800 transition duration-300">
                                 Book Now
                                 <span class="ml-2">+</span>
                             </button>
                         </div>
 
+
                     </div>
 
+                    <!-- Card-2 -->
                     <div class="mt-8">
                         <!-- Room Image -->
                         <div class="relative">
@@ -195,7 +223,252 @@
                         <!-- Book Now Button -->
                         <div class="mt-6">
                             <button
-                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center">
+                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center hover:bg-gray-800 transition duration-300">
+                                Book Now
+                                <span class="ml-2">+</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Card-3 -->
+                    <div class="mt-8">
+                        <!-- Room Image -->
+                        <div class="relative">
+                            <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Cozy Apartment GM8"
+                                class="w-full h-[500px] rounded-lg object-cover">
+                            <div class="absolute bottom-6 left-6 bg-white bg-opacity-90 px-4 py-2 rounded">
+                                <p class="text-gray-600">from <span class="text-xl font-semibold">₹2,033 / night</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Room Title and Description -->
+                        <div class="mt-8">
+                            <h1 class="text-3xl font-bold text-gray-800">Cozy Apartment GM8</h1>
+                            <p class="text-gray-600 mt-3 font-semibold">Serviced apartment in Ko Samui District</p>
+                            <p class="text-gray-600 mt-3 font-semibold">Entire Place • 2 guests • 1 bedroom • 1 bed • 1
+                                bathroom</p>
+                            <p class="text-gray-600 mt-3">
+                                Cozy New Apartment at Chaweng Hill with mountain view, near to the Central Samui Mall &
+                                Chaweng Beach.
+                                A peaceful stay with easy access to major attractions.
+                            </p>
+                        </div>
+
+                        <!-- Room Details -->
+                        <div class="mt-6 border-t border-b border-gray-200 py-6">
+                            <div class="flex items-center">
+                                <span class="mr-2 text-gray-700">26m² / 1-2 person</span>
+                            </div>
+
+                            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 mt-6">
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">kitchen</i>
+                                    <span class="text-xs mt-1">Kitchen</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">pool</i>
+                                    <span class="text-xs mt-1">Pool</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">wifi</i>
+                                    <span class="text-xs mt-1">Wi-Fi</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">tv</i>
+                                    <span class="text-xs mt-1">TV</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">local_hotel</i>
+                                    <span class="text-xs mt-1">Hair Dryer</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">ac_unit</i>
+                                    <span class="text-xs mt-1">Air Conditioning</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">king_bed</i>
+                                    <span class="text-xs mt-1">Essentials</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Book Now Button -->
+                        <div class="mt-6">
+                            <button
+                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center hover:bg-gray-800 transition duration-300">
+                                Book Now
+                                <span class="ml-2">+</span>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <!-- Card-4 -->
+                    <div class="mt-8">
+                        <!-- Room Image -->
+                        <div class="relative">
+                            <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="GM Apartments 2 Bedrooms"
+                                class="w-full h-[500px] rounded-lg object-cover">
+                            <div class="absolute bottom-6 left-6 bg-white bg-opacity-90 px-4 py-2 rounded">
+                                <p class="text-gray-600">from <span class="text-xl font-semibold">₹4,165 / night</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Room Title and Description -->
+                        <div class="mt-8">
+                            <h1 class="text-3xl font-bold text-gray-800">GM Apartments 2 Bedrooms</h1>
+                            <p class="text-gray-600 mt-3 font-semibold">Serviced apartment in Ko Samui District</p>
+                            <p class="text-gray-600 mt-3 font-semibold">Entire Place • 4 guests • 2 bedrooms • 2 beds • 1
+                                bathroom</p>
+                            <p class="text-gray-600 mt-3">
+                                Cozy modern-style apartment located in the heart of Samui, just 10 minutes from Central
+                                Samui & Fisherman’s Village.
+                                Enjoy a peaceful environment with a mountain view. The apartment includes an on-site
+                                restaurant serving authentic
+                                Thai food and motorbike rentals at your doorstep. We are here to assist with everything you
+                                need!
+                            </p>
+                        </div>
+
+                        <!-- Room Details -->
+                        <div class="mt-6 border-t border-b border-gray-200 py-6">
+                            <div class="flex items-center">
+                                <span class="mr-2 text-gray-700">50m² / 4-person capacity</span>
+                            </div>
+
+                            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 mt-6">
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">ac_unit</i>
+                                    <span class="text-xs mt-1">Air Conditioning</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">tv</i>
+                                    <span class="text-xs mt-1">TV</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">king_bed</i>
+                                    <span class="text-xs mt-1">Essentials</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">kitchen</i>
+                                    <span class="text-xs mt-1">Kitchen</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">pool</i>
+                                    <span class="text-xs mt-1">Pool</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">wifi</i>
+                                    <span class="text-xs mt-1">Wi-Fi</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">local_hotel</i>
+                                    <span class="text-xs mt-1">Hair Dryer</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">restaurant</i>
+                                    <span class="text-xs mt-1">Dishes & Silverware</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">soup_kitchen</i>
+                                    <span class="text-xs mt-1">Cooking Basics</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Book Now Button -->
+                        <div class="mt-6">
+                            <button
+                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center hover:bg-gray-800 transition duration-300">
+                                Book Now
+                                <span class="ml-2">+</span>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <!-- Card-5 -->
+                    <div class="mt-8">
+                        <!-- Room Image -->
+                        <div class="relative">
+                            <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Gm Bungalow at Chaweng Hill"
+                                class="w-full h-[500px] rounded-lg object-cover">
+                            <div class="absolute bottom-6 left-6 bg-white bg-opacity-90 px-4 py-2 rounded">
+                                <p class="text-gray-600">from <span class="text-xl font-semibold">₹2,006 / night</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Room Title and Description -->
+                        <div class="mt-8">
+                            <h1 class="text-3xl font-bold text-gray-800">Gm Bungalow at Chaweng Hill</h1>
+                            <p class="text-gray-600 mt-3 font-semibold">House in Tambon Bo Put</p>
+                            <p class="text-gray-600 mt-3 font-semibold">Entire Place • 2 guests • 1 bedroom • 1 bed • 1
+                                bathroom</p>
+                            <p class="text-gray-600 mt-3">
+                                Mountain house at Chaweng Hill with a shared pool, just 10 minutes from Central Samui &
+                                Fisherman’s Village.
+                                Enjoy a peaceful environment with a beautiful mountain view. A restaurant is just 10 steps
+                                from the house,
+                                and motorbike rentals are available at your doorstep. We’re here to assist with anything you
+                                need.
+                            </p>
+                        </div>
+
+                        <!-- Room Details -->
+                        <div class="mt-6 border-t border-b border-gray-200 py-6">
+                            <div class="flex items-center">
+                                <span class="mr-2 text-gray-700">40m² / 2-person capacity</span>
+                            </div>
+
+                            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 mt-6">
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">ac_unit</i>
+                                    <span class="text-xs mt-1">Air Conditioning</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">king_bed</i>
+                                    <span class="text-xs mt-1">Essentials</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">kitchen</i>
+                                    <span class="text-xs mt-1">Kitchen</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">pool</i>
+                                    <span class="text-xs mt-1">Pool</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">tv</i>
+                                    <span class="text-xs mt-1">TV</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">wifi</i>
+                                    <span class="text-xs mt-1">Wi-Fi</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">restaurant</i>
+                                    <span class="text-xs mt-1">Dishes & Silverware</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">work</i>
+                                    <span class="text-xs mt-1">Dedicated Workspace</span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <i class="material-icons text-gray-600">soup_kitchen</i>
+                                    <span class="text-xs mt-1">Cooking Basics</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Book Now Button -->
+                        <div class="mt-6">
+                            <button
+                                class="bg-black text-white px-6 py-2 rounded-none uppercase text-sm font-semibold flex items-center hover:bg-gray-800 transition duration-300">
                                 Book Now
                                 <span class="ml-2">+</span>
                             </button>
@@ -260,9 +533,10 @@
                             </div>
 
                             <button type="submit"
-                                class="w-full bg-black text-white py-3 rounded-md uppercase text-sm font-semibold">
+                                class="w-full bg-black text-white py-3 rounded-md uppercase text-sm font-semibold hover:bg-gray-800 transition duration-300">
                                 Check Availability
                             </button>
+
                         </form>
                     </div>
                 </div>
