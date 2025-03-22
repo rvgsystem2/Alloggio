@@ -10,7 +10,7 @@
         <div class="hidden md:block md:w-1/3 lg:w-1/4 bg-gray-100">
             @include('components.sidebar')
         </div>
-    
+
         <!-- Main Content -->
         <div class="w-full md:w-2/3 lg:w-3/4 relative overflow-hidden">
 
@@ -167,21 +167,21 @@
                     <div class="flex flex-col flex-1 min-w-[200px]">
                         <label class="text-sm font-semibold text-gray-700 mb-2 tracking-wide">CHECK-IN</label>
                         <input type="date"
-                            class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base focus:ring-2 focus:ring-amber-500 focus:border-amber-500 cursor-pointer">
+                            class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base focus:ring-2 focus:ring-gray-500 focus:border-gray-500 cursor-pointer">
                     </div>
 
                     <!-- Check-out -->
                     <div class="flex flex-col flex-1 min-w-[200px]">
                         <label class="text-sm font-semibold text-gray-700 mb-2 tracking-wide">CHECK-OUT</label>
                         <input type="date"
-                            class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base focus:ring-2 focus:ring-amber-500 focus:border-amber-500 cursor-pointer">
+                            class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base focus:ring-2 focus:ring-gray-500 focus:border-gray-500 cursor-pointer">
                     </div>
 
                     <!-- Guests -->
                     <div class="flex flex-col flex-1 min-w-[200px]">
                         <label class="text-sm font-semibold text-gray-700 mb-2 tracking-wide">GUESTS</label>
                         <select
-                            class="border border-gray-300 px-4 py-3 w-full bg-white text-gray-800 text-base focus:ring-2 focus:ring-amber-500 focus:border-amber-500 cursor-pointer">
+                            class="border border-gray-300 px-4 py-3 w-full bg-white text-gray-800 text-base focus:ring-2 focus:ring-gray-500 focus:border-gray-500 cursor-pointer">
                             <option>1 Adult</option>
                             <option>2 Adults</option>
                             <option>Family</option>
