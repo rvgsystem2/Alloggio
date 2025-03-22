@@ -6,7 +6,7 @@
     <section class="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
         <!-- Background Image with Parallax Effect -->
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 transform hover:scale-105"
-            style="background-image: url('{{ asset('asset/images/slide (2).jpg') }}');">
+            style="background-image: url('{{ asset('asset/images/properties-1.jpeg') }}');">
             <!-- Enhanced Gradient Overlay -->
             <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
         </div>

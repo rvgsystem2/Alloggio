@@ -5,14 +5,14 @@
         @include('components.header')
     </div>
 
-    <div class="flex overflow-hidden">
+    <div class="flex overflow-hidden min-h-screen">
         <!-- Sidebar -->
-        <div class="w-1/4 min-h-screen bg-gray-100 hidden md:block">
+        <div class="hidden md:block md:w-1/3 lg:w-1/4 bg-gray-100">
             @include('components.sidebar')
         </div>
-
+    
         <!-- Main Content -->
-        <div class="w-full md:w-3/4 relative overflow-hidden">
+        <div class="w-full md:w-2/3 lg:w-3/4 relative overflow-hidden">
 
             {{-- <div class="relative w-full max-w-screen-lg mx-auto overflow-hidden">
                 <div id="slider" class="relative w-full h-[600px]">
