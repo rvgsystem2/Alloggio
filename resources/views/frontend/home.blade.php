@@ -490,16 +490,15 @@
             </div>
 
             <div class="max-w-screen-lg mx-auto py-16 px-6 text-center bg-gradient-to-b from-white to-gray-50">
-                <h2 class="text-4xl font-serif font-bold text-gray-900 mb-2">See our Special Offers</h2>
-                <div class="w-24 h-1 bg-amber-500 mx-auto mb-6"></div>
-                <p class="text-gray-600 mt-4 text-lg max-w-2xl mx-auto leading-relaxed">
+                <h2 class="text-2xl font-serif font-semibold text-gray-900 mb-2">See our Special Offers</h2>
+                <p class="text-gray-600 mt-4 text-md max-w-2xl mx-auto leading-relaxed">
                     Morbi porta, purus at posuere consectetur, eros justo feugiat lorem, nec laoreet odio odio ac erat.
                     Luctus sed libero dictum cursus cras consequat.
                 </p>
 
                 <div class="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto py-16 px-4">
                     <!-- Winter Offer Card -->
-                    <div class="flex-1 bg-gray-50 p-12 flex flex-col items-center text-center">
+                    <div class="flex-1 bg-gray-50 p-8 flex flex-col items-center text-center">
                         <h3 class="font-serif text-2xl font-medium text-gray-900">Winter Offer</h3>
                         <div class="mt-4 flex items-baseline">
                             <span class="text-6xl font-light text-gray-800">25%</span>
@@ -526,7 +525,7 @@
                     </div>
 
                     <!-- Holidays Card -->
-                    <div class="flex-1 bg-pink-50 p-12 flex flex-col items-center text-center relative">
+                    <div class="flex-1 bg-pink-50 p-8 flex flex-col items-center text-center relative">
                         <div class="absolute top-6 right-6">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
@@ -563,7 +562,7 @@
                     </div>
 
                     <!-- Special Events Card -->
-                    <div class="flex-1 bg-gray-50 p-12 flex flex-col items-center text-center">
+                    <div class="flex-1 bg-gray-50 p-8 flex flex-col items-center text-center">
                         <h3 class="font-serif text-2xl font-medium text-gray-900">Special Events</h3>
                         <div class="mt-4 flex items-baseline">
                             <span class="text-6xl font-light text-gray-800">5%</span>
@@ -593,39 +592,39 @@
 
             <div class="max-w-screen-lg mx-auto px-6 text-center bg-white"
                 style="font-family: 'Josefin Sans', sans-serif;">
-                <h2 class="text-5xl font-bold text-gray-900 mb-3">Continental</h2>
-                <p class="text-gray-600 mt-4 text-lg max-w-2xl mx-auto leading-relaxed">
+                <h2 class="text-3xl font-semibold text-gray-900 mb-3">Continental</h2>
+                <p class="text-gray-600 mt-4 text-md max-w-2xl mx-auto leading-relaxed">
                     Between 08:30 and 10:30 we serve our buffet of local and fresh products. Start your day with your
                     favourite breakfast!
                 </p>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto py-12 px-4">
                     <!-- Left Column -->
-                    <div class="bg-gray-50 p-8 rounded-lg text-left">
-                        <h3 class="text-xl text-gray-900">Eggs & Bacon</h3>
+                    <div class="p-8 rounded-lg text-left">
+                        <h3 class="text-md text-gray-900">Eggs & Bacon</h3>
                         <p class="text-gray-600 mt-2">Enjoy a classic breakfast with crispy bacon and eggs cooked to your
                             preference.</p>
 
-                        <h3 class="text-xl text-gray-900 mt-6">Vegan Breakfast</h3>
+                        <h3 class="text-md text-gray-900 mt-6">Vegan Breakfast</h3>
                         <p class="text-gray-600 mt-2">A delicious plant-based start to your morning, featuring fresh
                             ingredients.</p>
 
-                        <h3 class="text-xl text-gray-900 mt-6">Tea or Coffee</h3>
+                        <h3 class="text-md text-gray-900 mt-6">Tea or Coffee</h3>
                         <p class="text-gray-600 mt-2">Choose between a freshly brewed coffee or a variety of teas to
                             complement your meal.</p>
                     </div>
 
                     <!-- Right Column -->
-                    <div class="bg-gray-50 p-8 rounded-lg text-left">
-                        <h3 class="text-xl text-gray-900">French Croissant</h3>
+                    <div class="p-8 rounded-lg text-left">
+                        <h3 class="text-md text-gray-900">French Croissant</h3>
                         <p class="text-gray-600 mt-2">Indulge in a buttery and flaky French croissant, freshly baked every
                             morning.</p>
 
-                        <h3 class="text-xl text-gray-900 mt-6">Avocado Toast</h3>
+                        <h3 class="text-md text-gray-900 mt-6">Avocado Toast</h3>
                         <p class="text-gray-600 mt-2">A nutritious toast topped with creamy avocado and a sprinkle of
                             seasoning.</p>
 
-                        <h3 class="text-xl text-gray-900 mt-6">Cheese Plate</h3>
+                        <h3 class="text-md text-gray-900 mt-6">Cheese Plate</h3>
                         <p class="text-gray-600 mt-2">A selection of fine cheeses served with nuts and dried fruits.</p>
                     </div>
                 </div>
