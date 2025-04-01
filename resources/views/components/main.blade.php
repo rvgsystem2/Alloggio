@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="bg-gray-100" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+<body class="bg-white" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
 
     {{-- Header --}}
     {{-- @include('components.header') --}}

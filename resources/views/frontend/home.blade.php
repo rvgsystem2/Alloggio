@@ -14,83 +14,6 @@
         <!-- Main Content -->
         <div class="w-full md:w-2/3 lg:w-3/4 relative overflow-hidden">
 
-            {{-- <div class="relative w-full max-w-screen-lg mx-auto overflow-hidden">
-                <div id="slider" class="relative w-full h-[600px]">
-                    <!-- Slide 1 -->
-                    <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-0" data-slide>
-                        <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Interior & Exterior" class="w-full h-[600px] object-cover">
-                        <div class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-10 shadow-md">
-                            <h2 class="text-5xl font-serif text-gray-900">Interior & Exterior</h2>
-                            <button class="mt-6 text-lg font-semibold tracking-wide text-gray-700 flex items-center">
-                                READ MORE <span class="material-icons ml-2">add</span>
-                            </button>
-                        </div>
-                    </div>
-            
-                    <!-- Slide 2 -->
-                    <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-0" data-slide>
-                        <img src="{{ asset('asset/images/slide (2).jpg') }}" alt="Modern Design" class="w-full h-[600px] object-cover">
-                        <div class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-10 shadow-md">
-                            <h2 class="text-5xl font-serif text-gray-900">Modern Design</h2>
-                            <button class="mt-6 text-lg font-semibold tracking-wide text-gray-700 flex items-center">
-                                READ MORE <span class="material-icons ml-2">add</span>
-                            </button>
-                        </div>
-                    </div>
-            
-                    <!-- Slide 3 -->
-                    <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-0" data-slide>
-                        <img src="{{ asset('asset/images/slide (3).jpg') }}" alt="Luxury Living" class="w-full h-[600px] object-cover">
-                        <div class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-10 shadow-md">
-                            <h2 class="text-5xl font-serif text-gray-900">Luxury Living</h2>
-                            <button class="mt-6 text-lg font-semibold tracking-wide text-gray-700 flex items-center">
-                                READ MORE <span class="material-icons ml-2">add</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Navigation Arrows -->
-                <button id="prevSlide" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full text-xl">
-                    &#10094;
-                </button>
-                <button id="nextSlide" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full text-xl">
-                    &#10095;
-                </button>
-            </div>
-            
-            <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    let slides = document.querySelectorAll("[data-slide]");
-                    let currentIndex = 0;
-            
-                    function showSlide(index) {
-                        slides.forEach((slide, i) => {
-                            slide.style.opacity = i === index ? "1" : "0";
-                        });
-                    }
-            
-                    function nextSlide() {
-                        currentIndex = (currentIndex + 1) % slides.length;
-                        showSlide(currentIndex);
-                    }
-            
-                    function prevSlide() {
-                        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-                        showSlide(currentIndex);
-                    }
-            
-                    document.getElementById("nextSlide").addEventListener("click", nextSlide);
-                    document.getElementById("prevSlide").addEventListener("click", prevSlide);
-            
-                    // Auto-slide every 4 seconds
-                    setInterval(nextSlide, 4000);
-            
-                    // Show the first slide initially
-                    showSlide(currentIndex);
-                });
-            </script> --}}
-
             <!-- Slider Container -->
             <div class="relative w-full h-screen overflow-hidden">
                 <div id="slider" class="relative w-full h-screen">
@@ -99,9 +22,10 @@
                         data-slide>
                         <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
-                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                        <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
-                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                            <h2
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
                                 House in Tambon Bo Put, Thailand
                             </h2>
                         </div>
@@ -110,9 +34,10 @@
                         data-slide>
                         <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
-                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                        <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
-                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                            <h2
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
                                 Apartment in Tambon Bo Put, Thailand
                             </h2>
                         </div>
@@ -121,9 +46,10 @@
                         data-slide>
                         <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
-                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                        <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
-                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                            <h2
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
                                 House in Mae Nam, Thailand
                             </h2>
                         </div>
@@ -132,9 +58,10 @@
                         data-slide>
                         <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
-                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                        <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
-                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                            <h2
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
                                 Apartment in Ko Samui District
                             </h2>
                         </div>
@@ -143,20 +70,21 @@
                         data-slide>
                         <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="Slide Image"
                             class="w-full h-screen object-cover">
-                        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
+                        <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
-                            <h2 class="text-5xl font-serif text-gray-900 bg-white px-8 py-4 rounded-md shadow-md">
+                            <h2
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
                                 Apartment in Ko Samui District
                             </h2>
                         </div>
                     </div>
                 </div>
 
-                <!-- Navigation Arrows -->
+                <!-- Navigation Arrows (Hidden) -->
                 <button id="prevSlide"
-                    class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">&#10094;</button>
+                    class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hidden">&#10094;</button>
                 <button id="nextSlide"
-                    class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">&#10095;</button>
+                    class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hidden">&#10095;</button>
             </div>
 
             <!-- Booking Container -->
@@ -166,26 +94,75 @@
                     <!-- Check-in -->
                     <div class="flex flex-col flex-1 min-w-[200px]">
                         <label class="text-sm font-semibold text-gray-700 mb-2 tracking-wide">CHECK-IN</label>
-                        <input type="date"
+                        <input type="date" id="check-in"
                             class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base focus:ring-2 focus:ring-gray-500 focus:border-gray-500 cursor-pointer">
                     </div>
 
                     <!-- Check-out -->
                     <div class="flex flex-col flex-1 min-w-[200px]">
                         <label class="text-sm font-semibold text-gray-700 mb-2 tracking-wide">CHECK-OUT</label>
-                        <input type="date"
+                        <input type="date" id="check-out"
                             class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base focus:ring-2 focus:ring-gray-500 focus:border-gray-500 cursor-pointer">
                     </div>
 
                     <!-- Guests -->
-                    <div class="flex flex-col flex-1 min-w-[200px]">
+                    <div class="flex flex-col flex-1 min-w-[200px] relative">
                         <label class="text-sm font-semibold text-gray-700 mb-2 tracking-wide">GUESTS</label>
-                        <select
-                            class="border border-gray-300 px-4 py-3 w-full bg-white text-gray-800 text-base focus:ring-2 focus:ring-gray-500 focus:border-gray-500 cursor-pointer">
-                            <option>1 Adult</option>
-                            <option>2 Adults</option>
-                            <option>Family</option>
-                        </select>
+                        <div id="guests-selector"
+                            class="border border-gray-300 px-4 py-3 w-full text-gray-800 text-base cursor-pointer flex justify-between items-center">
+                            <span id="guests-display">1 Adult</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+
+                        <!-- Dropdown Content -->
+                        <div id="guests-dropdown"
+                            class="absolute top-full left-0 right-0 bg-white border border-gray-300 mt-1 p-4 z-10 hidden">
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-gray-800">Adults</span>
+                                <div class="flex items-center">
+                                    <select id="adults-count" class="border border-gray-300 px-2 py-1 rounded">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-gray-800">Children<br><span class="text-xs text-gray-500">2-12 years
+                                        old</span></span>
+                                <div class="flex items-center">
+                                    <select id="children-count" class="border border-gray-300 px-2 py-1 rounded">
+                                        <option value="0" selected>0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex justify-between items-center mb-4">
+                                <span class="text-gray-800">Infants<br><span class="text-xs text-gray-500">0-2 years
+                                        old</span></span>
+                                <div class="flex items-center">
+                                    <select id="infants-count" class="border border-gray-300 px-2 py-1 rounded">
+                                        <option value="0" selected>0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button id="done-button"
+                                class="w-full border border-gray-400 text-center py-2 text-gray-800 hover:bg-gray-100 transition-all">
+                                DONE
+                            </button>
+                        </div>
                     </div>
 
                     <!-- Book Now Button -->
@@ -198,9 +175,78 @@
                 </div>
             </div>
 
+            <script>
+                // Set the current date as the default value for the check-in field
+                const currentDate = new Date();
+                document.getElementById('check-in').value = currentDate.toISOString().split('T')[0];
+
+                // Set the current date as the default value for the check-out field
+                const nextDay = new Date();
+                nextDay.setDate(currentDate.getDate() + 1);
+                document.getElementById('check-out').value = nextDay.toISOString().split('T')[0];
+
+                // Guest dropdown functionality
+                const guestsSelector = document.getElementById('guests-selector');
+                const guestsDropdown = document.getElementById('guests-dropdown');
+                const guestsDisplay = document.getElementById('guests-display');
+                const doneButton = document.getElementById('done-button');
+                const adultsCount = document.getElementById('adults-count');
+                const childrenCount = document.getElementById('children-count');
+                const infantsCount = document.getElementById('infants-count');
+
+                // Toggle dropdown visibility
+                guestsSelector.addEventListener('click', function() {
+                    guestsDropdown.classList.toggle('hidden');
+                });
+
+                // Close dropdown when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!guestsSelector.contains(event.target) && !guestsDropdown.contains(event.target)) {
+                        guestsDropdown.classList.add('hidden');
+                    }
+                });
+
+                // Update guests display when done button is clicked
+                doneButton.addEventListener('click', function() {
+                    updateGuestsDisplay();
+                    guestsDropdown.classList.add('hidden');
+                });
+
+                // Update display when selects change
+                adultsCount.addEventListener('change', updateGuestsDisplay);
+                childrenCount.addEventListener('change', updateGuestsDisplay);
+                infantsCount.addEventListener('change', updateGuestsDisplay);
+
+                function updateGuestsDisplay() {
+                    const adults = parseInt(adultsCount.value);
+                    const children = parseInt(childrenCount.value);
+                    const infants = parseInt(infantsCount.value);
+
+                    let displayText = '';
+
+                    if (adults === 1) {
+                        displayText = '1 Adult';
+                    } else {
+                        displayText = `${adults} Adults`;
+                    }
+
+                    if (children > 0) {
+                        displayText += `, ${children} ${children === 1 ? 'Child' : 'Children'}`;
+                    }
+
+                    if (infants > 0) {
+                        displayText += `, ${infants} ${infants === 1 ? 'Infant' : 'Infants'}`;
+                    }
+
+                    guestsDisplay.textContent = displayText;
+                }
+            </script>
+
+
+@include('components.calender')
 
             <!-- Include SwiperJS -->
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+            {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
             <style>
@@ -342,7 +388,7 @@
                         }
                     });
                 });
-            </script>
+            </script> --}}
 
             <div class="relative w-full max-w-screen-lg mx-auto">
                 <!-- Background Image -->

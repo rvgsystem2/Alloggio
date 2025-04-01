@@ -34,8 +34,8 @@
                 <a href="#"
                     class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
                     PAGES
-                    <i
-                        class="fa-solid fa-chevron-down ml-2 text-xs transition-transform duration-300 group-hover:rotate-180"></i>
+                    {{-- <i
+                        class="fa-solid fa-chevron-down ml-2 text-xs transition-transform duration-300 group-hover:rotate-180"></i> --}}
                 </a>
                 <ul
                     class="invisible opacity-0 group-hover:visible group-hover:opacity-100 absolute left-0 right-0 bg-white shadow-md rounded-md mt-2 py-2 z-10 transition-all duration-300 dropdown-menu">
