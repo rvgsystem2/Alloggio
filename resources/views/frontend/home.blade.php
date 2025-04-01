@@ -243,7 +243,7 @@
             </script>
 
 
-@include('components.calender')
+            @include('components.calender')
 
             <!-- Include SwiperJS -->
             {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -390,7 +390,7 @@
                 });
             </script> --}}
 
-            <div class="relative w-full max-w-screen-lg mx-auto">
+            <div class="relative w-full max-w-full mx-auto">
                 <!-- Background Image -->
                 <div class="relative group overflow-hidden">
                     <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Interior & Exterior"
@@ -398,13 +398,15 @@
 
                     <!-- Text Overlay -->
                     <div
-                        class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-8 shadow-md transition-all duration-500 group-hover:translate-x-3 group-hover:shadow-lg">
+                        class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-4 sm:p-6 md:p-8 shadow-md transition-all duration-500 group-hover:translate-x-3 group-hover:shadow-lg w-3/4 sm:w-3/4 md:w-1/2">
                         <h2
-                            class="text-4xl font-serif text-gray-900 transition-colors duration-500 group-hover:text-amber-700">
-                            House in Tambon Bo Put, Thailand</h2>
+                            class="text-xl sm:text-2xl font-serif text-gray-900 transition-colors duration-500 group-hover:text-amber-700">
+                            House in Tambon Bo Put, Thailand
+                        </h2>
                         <button
-                            class="mt-4 text-sm font-semibold tracking-wide text-gray-700 flex items-center transition-all duration-500 group-hover:text-amber-700">
-                            READ MORE <span
+                            class="mt-4 text-sm sm:text-xs font-semibold tracking-wide text-gray-700 flex items-center transition-all duration-500 group-hover:text-amber-700">
+                            READ MORE
+                            <span
                                 class="material-icons ml-2 transform transition-transform duration-500 group-hover:rotate-90">add</span>
                         </button>
                     </div>
@@ -464,7 +466,7 @@
                 </div>
             </div>
 
-            <div class="relative w-full max-w-screen-lg mx-auto">
+            <div class="relative w-full max-w-full mx-auto">
                 <!-- Background Image -->
                 <div class="relative group overflow-hidden">
                     <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Interior & Exterior"
@@ -472,13 +474,15 @@
 
                     <!-- Text Overlay -->
                     <div
-                        class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-8 shadow-md transition-all duration-500 group-hover:translate-x-3 group-hover:shadow-lg">
+                        class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#FAF7F2] p-4 sm:p-6 md:p-8 shadow-md transition-all duration-500 group-hover:translate-x-3 group-hover:shadow-lg w-3/4 sm:w-3/4 md:w-1/2">
                         <h2
-                            class="text-4xl font-serif text-gray-900 transition-colors duration-500 group-hover:text-amber-700">
-                            Apartment in Tambon Bo Put, Thailand</h2>
+                            class="text-xl sm:text-2xl font-serif text-gray-900 transition-colors duration-500 group-hover:text-amber-700">
+                            Apartment in Tambon Bo Put, Thailand
+                        </h2>
                         <button
-                            class="mt-4 text-sm font-semibold tracking-wide text-gray-700 flex items-center transition-all duration-500 group-hover:text-amber-700">
-                            READ MORE <span
+                            class="mt-4 text-sm sm:text-xs font-semibold tracking-wide text-gray-700 flex items-center transition-all duration-500 group-hover:text-amber-700">
+                            READ MORE
+                            <span
                                 class="material-icons ml-2 transform transition-transform duration-500 group-hover:rotate-90">add</span>
                         </button>
                     </div>
