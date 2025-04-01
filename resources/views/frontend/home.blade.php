@@ -414,9 +414,9 @@
             </div>
 
             <div class="max-w-screen-lg mx-auto py-16 px-6">
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 text-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
                     <!-- Feature Items -->
-                    <div class="flex flex-col items-center transition-transform transform hover:scale-105">
+                    <div class="flex flex-col items-start transition-transform transform hover:scale-105">
                         <span class="material-icons text-5xl text-[#C26C51] mb-3">emoji_events</span>
                         <h3 class="text-xl font-serif font-semibold">High Rating</h3>
                         <p class="text-gray-600 mt-2 max-w-xs">
@@ -424,7 +424,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center transition-transform transform hover:scale-105">
+                    <div class="flex flex-col items-start transition-transform transform hover:scale-105">
                         <span class="material-icons text-5xl text-[#C26C51] mb-3">nights_stay</span>
                         <h3 class="text-xl font-serif font-semibold">Quiet Hours</h3>
                         <p class="text-gray-600 mt-2 max-w-xs">
@@ -432,7 +432,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center transition-transform transform hover:scale-105">
+                    <div class="flex flex-col items-start transition-transform transform hover:scale-105">
                         <span class="material-icons text-5xl text-[#C26C51] mb-3">place</span>
                         <h3 class="text-xl font-serif font-semibold">Best Locations</h3>
                         <p class="text-gray-600 mt-2 max-w-xs">
@@ -440,7 +440,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center transition-transform transform hover:scale-105">
+                    <div class="flex flex-col items-start transition-transform transform hover:scale-105">
                         <span class="material-icons text-5xl text-[#C26C51] mb-3">event_available</span>
                         <h3 class="text-xl font-serif font-semibold">Free Cancellation</h3>
                         <p class="text-gray-600 mt-2 max-w-xs">
@@ -448,7 +448,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center transition-transform transform hover:scale-105">
+                    <div class="flex flex-col items-start transition-transform transform hover:scale-105">
                         <span class="material-icons text-5xl text-[#C26C51] mb-3">credit_card</span>
                         <h3 class="text-xl font-serif font-semibold">Payment Options</h3>
                         <p class="text-gray-600 mt-2 max-w-xs">
@@ -456,7 +456,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center transition-transform transform hover:scale-105">
+                    <div class="flex flex-col items-start transition-transform transform hover:scale-105">
                         <span class="material-icons text-5xl text-[#C26C51] mb-3">card_giftcard</span>
                         <h3 class="text-xl font-serif font-semibold">Special Offers</h3>
                         <p class="text-gray-600 mt-2 max-w-xs">
