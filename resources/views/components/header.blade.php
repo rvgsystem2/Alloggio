@@ -5,11 +5,10 @@
     class="w-full bg-white shadow-lg px-4 sm:px-6 md:px-8 py-4 md:py-6 flex items-center justify-between border-b border-gray-200 z-50 relative">
 
     <!-- Logo for Mobile -->
-    <div class="flex md:hidden items-center">
-        <h1 class="text-2xl sm:text-3xl font-serif font-bold text-gray-900 tracking-wider">
-            <span class="text-amber-700">Koh</span>Rooms
-        </h1>
+    <div class="flex md:hidden items-center justify-center">
+        <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="w-20 h-20">
     </div>
+
 
     <!-- Weather Info (Hidden on smaller screens) -->
     <div class="hidden sm:flex md:hidden items-center space-x-2 text-gray-700 text-sm">
@@ -49,9 +48,7 @@
 
         <!-- Center Logo for Desktop -->
         <div class="relative text-center">
-            <h1 class="text-2xl lg:text-3xl font-serif font-bold text-gray-900 tracking-wider whitespace-nowrap">
-                <span class="text-amber-700">Koh</span>Rooms
-            </h1>
+            <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="mx-auto w-24 h-24">
         </div>
 
         <a href="{{ route('gallery') }}" class="hover:text-amber-700 transition duration-300 py-3">GALLERY</a>
@@ -80,14 +77,13 @@
 <div id="mobile-menu"
     class="fixed top-0 left-0 w-full h-full bg-white shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out md:hidden z-50 overflow-y-auto">
     <div class="flex justify-between items-center px-4 sm:px-6 py-4 border-b border-gray-300 bg-gray-100 sticky top-0">
-        <h1 class="text-2xl font-serif font-bold text-gray-900">
-            <span class="text-amber-700">Koh</span>Rooms
-        </h1>
+        <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="w-16 h-16">
         <button id="menu-close"
             class="text-gray-800 hover:text-amber-700 transition duration-200 p-2 rounded-full bg-gray-200">
             <i class="fa-solid fa-times text-xl"></i>
         </button>
     </div>
+
 
     <nav class="flex flex-col text-center py-4 px-4 sm:px-6 space-y-2">
         <a href="{{ url('/') }}"

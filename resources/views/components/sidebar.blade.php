@@ -8,10 +8,9 @@
     class="fixed top-0 left-0 h-full w-[340px] bg-[#FAF7F2] shadow-xl px-6 py-8 flex flex-col justify-between overflow-y-auto border-r border-gray-200">
     <!-- Logo & Brand -->
     <div class="text-center">
-        <h1 class="text-4xl font-serif font-bold text-gray-800 tracking-wide">
-            <span class="text-amber-700">Koh</span>Rooms
-            <p class="text-xs text-gray-500 mt-1 italic">Luxury Accommodations Since 1992</p>
-            <div class="mt-4 w-20 h-0.5 bg-gray-300 mx-auto"></div>
+        <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="mx-auto w-24 h-24">
+        <p class="text-xs text-gray-500 mt-1 italic">Luxury Accommodations Since 1992</p>
+        <div class="mt-4 w-20 h-0.5 bg-gray-300 mx-auto"></div>
     </div>
 
     <!-- Navigation Links -->
