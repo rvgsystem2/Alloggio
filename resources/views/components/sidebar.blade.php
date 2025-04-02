@@ -4,6 +4,22 @@
 <!-- Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+<style>
+    /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar but allow scrolling in Firefox */
+    * {
+        scrollbar-width: none;
+    }
+
+    /* Hide scrollbar but allow scrolling in Internet Explorer and Edge */
+    *::-ms-scrollbar {
+        display: none;
+    }
+</style>
 <aside
     class="fixed top-0 left-0 h-full w-[340px] bg-[#FAF7F2] shadow-xl px-6 py-8 flex flex-col justify-between overflow-y-auto border-r border-gray-200">
     <!-- Logo & Brand -->
@@ -35,7 +51,8 @@
                     PAGES
                 </button>
                 <!-- Submenu (initially collapsed) -->
-                <div class="submenu-wrapper overflow-hidden transition-all duration-500 ease-in-out" style="max-height: 0;">
+                <div class="submenu-wrapper overflow-hidden transition-all duration-500 ease-in-out"
+                    style="max-height: 0;">
                     <ul class="pt-3 pb-1 space-y-3">
                         <li>
                             <a href="{{ route('properties') }}"
@@ -118,7 +135,7 @@
         const pagesToggleBtn = document.getElementById('pagesToggleBtn');
         const submenuWrapper = pagesToggleBtn.parentElement.querySelector('.submenu-wrapper');
         let isExpanded = false;
-        
+
         // Toggle submenu with smooth animation
         pagesToggleBtn.addEventListener('click', function() {
             if (!isExpanded) {
@@ -132,7 +149,7 @@
                 submenuWrapper.style.maxHeight = '0px';
                 pagesToggleBtn.classList.remove('text-amber-700');
             }
-            
+
             // Toggle the state
             isExpanded = !isExpanded;
         });
