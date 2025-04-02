@@ -224,21 +224,21 @@
                     <div class="flex transition-transform duration-700 ease-out" id="slider">
                         <!-- Slides -->
                         <div class="min-w-full p-6">
-                            <h2 class="text-3xl font-bold">"A Great Find"</h2>
+                            <h2 class="text-3xl font-semibold">"A Great Find"</h2>
                             <p class="text-gray-600 text-lg max-w-2xl mx-auto mt-4">
                                 Proin volutpat dapibus tellus, eget malesuada nisi molestie ut.
                             </p>
                             <p class="text-[#b56a5d] text-xl mt-4">Jemima Santiago</p>
                         </div>
                         <div class="min-w-full p-6">
-                            <h2 class="text-3xl font-bold">"Best Experience"</h2>
+                            <h2 class="text-3xl font-semibold">"Best Experience"</h2>
                             <p class="text-gray-600 text-lg max-w-2xl mx-auto mt-4">
                                 Vestibulum eget scelerisque magna. Mauris eget consectetur tellus.
                             </p>
                             <p class="text-[#b56a5d] text-xl mt-4">Liam Carter</p>
                         </div>
                         <div class="min-w-full p-6">
-                            <h2 class="text-3xl font-bold">"Absolutely Amazing"</h2>
+                            <h2 class="text-3xl font-semibold">"Absolutely Amazing"</h2>
                             <p class="text-gray-600 text-lg max-w-2xl mx-auto mt-4">
                                 Suspendisse justo arcu, euismod ac dui sit amet, mollis maximus ligula.
                             </p>
