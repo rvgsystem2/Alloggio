@@ -518,7 +518,7 @@
 
                             <!-- Guests Selection -->
                             <div class="relative mb-6">
-                                <label class="text-sm font-semibold text-gray-700 mb-2 block">Guests</label>
+                                <label class="block text-gray-700 text-xs font-bold mb-2">Guests</label>
                                 <div id="guests-selector"
                                     class="border border-gray-300 px-4 py-3 w-full text-gray-800 cursor-pointer flex justify-between items-center">
                                     <span id="guests-display">1 Adult</span>
