@@ -2,7 +2,7 @@
 
 <!-- Web Navigation Menu -->
 <header
-    class="w-full bg-white shadow-lg px-4 sm:px-6 md:px-8 py-4 md:py-6 flex items-center justify-between border-b border-gray-200 z-50 relative">
+    class="w-full bg-white shadow-lg px-4 sm:px-6 md:px-8 py-2 md:py-2 flex items-center justify-between border-b border-gray-200 z-50 relative">
 
     <!-- Logo for Mobile -->
     <div class="flex md:hidden items-center justify-center">
@@ -34,7 +34,7 @@
                 PAGES
             </a>
             <div
-                class="z-50 absolute left-1/2 transform -translate-x-1/2 mt-3 w-64 bg-white shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100">
+                class="z-50 absolute left-1/2 transform -translate-x-1/2 mt-3 w-64 bg-white shadow-xl opacity-0 max-h-0 scale-y-75 origin-top overflow-hidden invisible group-hover:opacity-100 group-hover:max-h-80 group-hover:scale-y-100 group-hover:visible transition-all duration-700 ease-out border border-gray-100">
                 <a href="{{ route('properties') }}"
                     class="block px-6 py-4 text-sm hover:bg-amber-50 hover:text-amber-800">Property</a>
                 <a href="{{ route('about.us') }}"
@@ -46,11 +46,12 @@
             </div>
         </div>
 
+
         <!-- Center Logo for Desktop -->
         <div class="relative text-center">
             <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="mx-auto w-24 h-24">
         </div>
-        
+
 
         <a href="{{ route('gallery') }}" class="hover:text-amber-700 transition duration-300 py-3">GALLERY</a>
         <a href="{{ route('blogs') }}" class="hover:text-amber-700 transition duration-300 py-3">BLOG</a>
@@ -77,7 +78,7 @@
 <!-- Mobile Navigation Menu (Full Screen Overlay) -->
 <div id="mobile-menu"
     class="fixed top-0 left-0 w-full h-full bg-white shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out md:hidden z-50 overflow-y-auto">
-    <div class="flex justify-between items-center px-4 sm:px-6 py-4 border-b border-gray-300 bg-gray-100 sticky top-0">
+    <div class="flex justify-between items-center px-4 sm:px-6 py-2 border-b border-gray-300 bg-gray-100 sticky top-0">
         <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="w-16 h-16">
         <button id="menu-close"
             class="text-gray-800 hover:text-amber-700 transition duration-200 p-2 rounded-full bg-gray-200">
@@ -88,37 +89,37 @@
 
     <nav class="flex flex-col text-center py-4 px-4 sm:px-6 space-y-2">
         <a href="{{ url('/') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-200 py-3 text-lg font-medium border-b border-gray-200">HOME</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">HOME</a>
         <a href="{{ route('rooms') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-200 py-3 text-lg font-medium border-b border-gray-200">ROOMS</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">ROOMS</a>
 
         <!-- Pages Dropdown -->
         <div class="relative border-b border-gray-200">
             <button id="pages-toggle"
-                class="text-gray-800 hover:text-amber-700 transition duration-200 py-3 text-lg font-medium w-full flex justify-center items-center">
+                class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium w-full flex justify-center items-center">
                 PAGES <i class="fa-solid fa-chevron-down ml-2 text-sm transition-transform duration-200"
                     id="pages-icon"></i>
             </button>
             <div id="pages-dropdown"
-                class="hidden flex-col bg-gray-100 rounded-md shadow-inner overflow-hidden max-h-0 transition-all duration-300">
+                class="hidden flex-col rounded-md shadow-inner overflow-hidden max-h-0 transition-all duration-300">
                 <a href="{{ route('properties') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-3 text-base sm:text-lg px-2">Property</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-base sm:text-lg px-2">Property</a>
                 <a href="{{ route('about.us') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-3 text-base sm:text-lg px-2">About
+                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-base sm:text-lg px-2">About
                     Us</a>
                 <a href="{{ route('services') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-3 text-base sm:text-lg px-2">Services</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-base sm:text-lg px-2">Services</a>
                 <a href="{{ route('faq') }}"
-                    class="block text-gray-700 hover:text-amber-700 transition py-3 text-base sm:text-lg px-2">FAQ</a>
+                    class="block text-gray-700 hover:text-amber-700 transition py-2 text-base sm:text-lg px-2">FAQ</a>
             </div>
         </div>
 
         <a href="{{ route('gallery') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-200 py-3 text-lg font-medium border-b border-gray-200">GALLERY</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">GALLERY</a>
         <a href="{{ route('blogs') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-200 py-3 text-lg font-medium border-b border-gray-200">BLOG</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium border-b border-gray-200">BLOG</a>
         <a href="{{ route('contact.us') }}"
-            class="text-gray-800 hover:text-amber-700 transition duration-200 py-3 text-lg font-medium">CONTACT</a>
+            class="text-gray-800 hover:text-amber-700 transition duration-200 py-2 text-lg font-medium">CONTACT</a>
     </nav>
 
     <div class="w-full text-center text-gray-700 px-4 sm:px-6 py-8 border-t border-gray-200 mt-6">
