@@ -50,6 +50,7 @@
         <div class="relative text-center">
             <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="mx-auto w-24 h-24">
         </div>
+        
 
         <a href="{{ route('gallery') }}" class="hover:text-amber-700 transition duration-300 py-3">GALLERY</a>
         <a href="{{ route('blogs') }}" class="hover:text-amber-700 transition duration-300 py-3">BLOG</a>
