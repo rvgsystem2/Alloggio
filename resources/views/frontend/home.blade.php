@@ -88,7 +88,7 @@
             </div>
 
             <!-- Booking Container -->
-            <div class="w-full flex items-center justify-center px-4 py-4">
+            <div class="w-full flex items-center justify-center my-2 px-4 py-4">
                 <div class="bg-white flex flex-wrap items-center gap-5 w-full max-w-[900px] mx-auto">
 
                     <!-- Check-in -->
