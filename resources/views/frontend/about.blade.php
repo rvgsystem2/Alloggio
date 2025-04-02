@@ -8,8 +8,6 @@
     <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
-
-
     <section class="relative w-full h-[300px] md:h-[400px]">
         <!-- Background Image with Parallax Effect -->
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 transform hover:scale-105"
@@ -36,7 +34,6 @@
             </p>
         </div>
     </section>
-
 
     <section class="py-16 bg-white">
         <div class="max-w-4xl mx-auto text-center">
@@ -219,7 +216,7 @@
         </section>
     </div>
 
-    <div class="bg-gray-200 relative overflow-hidden">
+    <div class="relative overflow-hidden">
         <section class="py-16">
             <div class="max-w-4xl mx-auto text-center relative">
                 <!-- Slider Container -->
@@ -252,7 +249,7 @@
 
                 <!-- Navigation Arrows -->
                 <button id="prev"
-                    class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-4 rounded-full shadow-md hover:bg-gray-200 transition flex items-center justify-center w-16 h-16">
+                    class="absolute left-4 top-1/2 transform -translate-y-1/2 p-4 rounded-full transition flex items-center justify-center w-16 h-16">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -260,7 +257,7 @@
                     </svg>
                 </button>
                 <button id="next"
-                    class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-4 rounded-full shadow-md hover:bg-gray-200 transition flex items-center justify-center w-16 h-16">
+                    class="absolute right-4 top-1/2 transform -translate-y-1/2 p-4 rounded-full transition flex items-center justify-center w-16 h-16">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                         stroke-linejoin="round">
