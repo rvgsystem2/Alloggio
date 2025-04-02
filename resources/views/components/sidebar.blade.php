@@ -1,7 +1,7 @@
 <!-- Google Material Icons Import -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-<!-- Font Awesome for Twitter Icon -->
+<!-- Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 <aside
@@ -15,58 +15,58 @@
 
     <!-- Navigation Links -->
     <nav class="mt-8">
-        <ul class="space-y-5 text-center">
+        <ul class="space-y-5 text-center" id="navMenu">
             <li>
                 <a href="{{ url('/') }}"
-                    class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
+                    class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
                     HOME
                 </a>
             </li>
             <li>
                 <a href="{{ route('rooms') }}"
-                    class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
+                    class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
                     ROOMS
                 </a>
             </li>
-            <!-- Pages Dropdown -->
-            <li class="relative group dropdown-container">
-                <a href="#"
-                    class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
+            <!-- Pages with expandable submenu -->
+            <li class="submenu-container">
+                <button id="pagesToggleBtn"
+                    class="w-full flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
                     PAGES
-                    {{-- <i
-                        class="fa-solid fa-chevron-down ml-2 text-xs transition-transform duration-300 group-hover:rotate-180"></i> --}}
-                </a>
-                <ul
-                    class="invisible opacity-0 group-hover:visible group-hover:opacity-100 absolute left-0 right-0 bg-white shadow-md rounded-md mt-2 py-2 z-10 transition-all duration-300 dropdown-menu">
-                    <li>
-                        <a href="{{ route('properties') }}"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
-                            Property
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('about.us') }}"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('gallery') }}"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
-                            Gallery
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('blogs') }}"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
+                </button>
+                <!-- Submenu (initially collapsed) -->
+                <div class="submenu-wrapper overflow-hidden transition-all duration-500 ease-in-out" style="max-height: 0;">
+                    <ul class="pt-3 pb-1 space-y-3">
+                        <li>
+                            <a href="{{ route('properties') }}"
+                                class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
+                                Property
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('about.us') }}"
+                                class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('gallery') }}"
+                                class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('blogs') }}"
+                                class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </li>
             <li>
                 <a href="{{ route('contact.us') }}"
-                    class="flex items-center justify-center text-sm font-semibold text-gray-800 hover:text-amber-700 transition duration-300">
+                    class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
                     CONTACT
                 </a>
             </li>
@@ -111,59 +111,30 @@
     </div>
 </aside>
 
-<!-- JavaScript for enhanced dropdown functionality -->
+<!-- JavaScript for smooth expanding menu -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Get all dropdown containers
-        const dropdownContainers = document.querySelectorAll('.dropdown-container');
-
-        // Add touch support for mobile devices
-        dropdownContainers.forEach(container => {
-            const link = container.querySelector('a');
-            const menu = container.querySelector('.dropdown-menu');
-            const icon = container.querySelector('i.fa-chevron-down');
-
-            // For touch devices
-            link.addEventListener('touchstart', function(e) {
-                e.preventDefault();
-
-                // Check if this dropdown is already open
-                const isOpen = menu.classList.contains('touch-open');
-
-                // Close all dropdowns first
-                document.querySelectorAll('.dropdown-menu').forEach(m => {
-                    m.classList.remove('touch-open');
-                });
-                document.querySelectorAll('i.fa-chevron-down').forEach(i => {
-                    i.classList.remove('rotate-180');
-                });
-
-                // If it wasn't open before, open it now
-                if (!isOpen) {
-                    menu.classList.add('touch-open');
-                    icon.classList.add('rotate-180');
-                }
-            });
-        });
-
-        // Close dropdowns when clicking outside
-        document.addEventListener('click', function(event) {
-            if (!event.target.closest('.dropdown-container')) {
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    menu.classList.remove('touch-open');
-                });
-                document.querySelectorAll('i.fa-chevron-down').forEach(icon => {
-                    icon.classList.remove('rotate-180');
-                });
+        // Get the pages toggle button and submenu
+        const pagesToggleBtn = document.getElementById('pagesToggleBtn');
+        const submenuWrapper = pagesToggleBtn.parentElement.querySelector('.submenu-wrapper');
+        let isExpanded = false;
+        
+        // Toggle submenu with smooth animation
+        pagesToggleBtn.addEventListener('click', function() {
+            if (!isExpanded) {
+                // Get the scrollHeight which is the height of the content
+                const submenuHeight = submenuWrapper.scrollHeight;
+                // Set the max-height to that height to expand it
+                submenuWrapper.style.maxHeight = submenuHeight + 'px';
+                pagesToggleBtn.classList.add('text-amber-700');
+            } else {
+                // Collapse the submenu
+                submenuWrapper.style.maxHeight = '0px';
+                pagesToggleBtn.classList.remove('text-amber-700');
             }
+            
+            // Toggle the state
+            isExpanded = !isExpanded;
         });
     });
 </script>
-
-<style>
-    /* Additional styles for touch devices */
-    .touch-open {
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
-</style>
