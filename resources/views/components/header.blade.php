@@ -81,7 +81,7 @@
     <div class="flex justify-between items-center px-4 sm:px-6 py-2 border-b border-gray-300 bg-gray-100 sticky top-0">
         <img src="{{ asset('asset/images/logo.png') }}" alt="KohRooms Logo" class="w-16 h-16">
         <button id="menu-close"
-            class="text-gray-800 hover:text-amber-700 transition duration-200 p-2 rounded-full bg-gray-200">
+            class="text-gray-800 hover:text-amber-700 transition duration-200 p-2 rounded-full">
             <i class="fa-solid fa-times text-xl"></i>
         </button>
     </div>
