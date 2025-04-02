@@ -28,24 +28,6 @@
         </div>
     </section>
 
-    <!-- Gallery Filter -->
-    {{-- <div class="bg-white py-8 sticky top-0 z-10 shadow-md">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap justify-center gap-4">
-                <button class="px-6 py-2 bg-black text-white rounded-full hover:bg-opacity-80 transition-all">All</button>
-                <button
-                    class="px-6 py-2 bg-white text-black border border-black rounded-full hover:bg-black hover:text-white transition-all">Nature</button>
-                <button
-                    class="px-6 py-2 bg-white text-black border border-black rounded-full hover:bg-black hover:text-white transition-all">Architecture</button>
-                <button
-                    class="px-6 py-2 bg-white text-black border border-black rounded-full hover:bg-black hover:text-white transition-all">Travel</button>
-                <button
-                    class="px-6 py-2 bg-white text-black border border-black rounded-full hover:bg-black hover:text-white transition-all">Food</button>
-            </div>
-        </div>
-    </div> --}}
-
-
     <!-- Gallery Grid -->
     <section>
         <div class="relative py-10">
@@ -257,7 +239,7 @@
             </div>
         </div>
     </div>
-    
+
     @include('components.footer')
 @endsection
 
