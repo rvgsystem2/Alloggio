@@ -226,61 +226,6 @@
         </div>
     </div>
 
-    <!-- Gallery Grid -->
-<section>
-    <div class="relative py-10">
-        <h2 class="text-5xl font-extrabold text-gray-600 text-center uppercase tracking-widest">
-            Gallery
-        </h2>
-        <div class="w-20 h-1 bg-gray-600 mx-auto mt-3 rounded-full"></div>
-    </div>
-
-    <div class="container mx-auto px-4 py-16">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            <!-- Gallery Item 1 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-1.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 2 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-2.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 3 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-3.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 4 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-4.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 5 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-5.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 6 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-6.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 7 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-7.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-
-            <!-- Gallery Item 8 -->
-            <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
-                <img src="{{ asset('asset/images/properties-8.jpeg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
-            </div>
-        </div>
-    </div>
-</section>
-
-
     @include('components.footer')
 @endsection
 

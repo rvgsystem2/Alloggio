@@ -1,0 +1,65 @@
+
+ <!-- Pass the asset base path to JavaScript -->
+<script>
+    const assetBasePath = "{{ asset('asset/gallery/gallery') }}";
+</script>
+
+<!-- Gallery Grid -->
+<section>
+    <div class="relative py-10">
+        <h2 class="text-5xl font-extrabold text-gray-600 text-center uppercase tracking-widest">
+            Gallery
+        </h2>
+        <div class="w-20 h-1 bg-gray-600 mx-auto mt-3 rounded-full"></div>
+    </div>
+
+    <div class="container mx-auto px-4 py-16">
+        <div id="gallery-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            @for ($i = 1; $i <= 20; $i++) 
+                <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
+                    <img src="{{ asset('asset/gallery/gallery (' . $i . ').jpg') }}" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
+                </div>
+            @endfor
+        </div>
+
+        <!-- Load More Button -->
+        <div class="flex justify-center mt-12">
+            <button id="load-more" class="px-8 py-3 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300 rounded-full flex items-center">
+                Load More
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript for Load More -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let currentCount = 20;  // Number of images initially loaded
+        let totalImages = 168;  // Total number of images available
+        const loadMoreButton = document.getElementById("load-more");
+        const galleryContainer = document.getElementById("gallery-container");
+
+        loadMoreButton.addEventListener("click", function() {
+            let newImages = "";
+            let nextLimit = currentCount + 20; // Load 20 more images
+
+            for (let i = currentCount + 1; i <= nextLimit && i <= totalImages; i++) {
+                newImages += `
+                    <div class="overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-80">
+                        <img src="${assetBasePath} (${i}).jpg" class="w-full h-full object-cover hover:scale-110 transition-all duration-500">
+                    </div>
+                `;
+            }
+
+            galleryContainer.insertAdjacentHTML("beforeend", newImages);
+            currentCount += 20;
+
+            if (currentCount >= totalImages) {
+                loadMoreButton.style.display = "none"; // Hide button when all images are loaded
+            }
+        });
+    });
+</script>
