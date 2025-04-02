@@ -226,6 +226,38 @@
         </div>
     </div>
 
+    <!-- Join our weekly Newsletter -->
+    <div class="bg-[#FCFAF5] py-12 px-6 relative">
+        <!-- Main content -->
+        <div class="max-w-5xl mx-auto flex flex-col">
+            <!-- Icon and Heading - Left aligned -->
+            <div class="flex items-center gap-4 ">
+                <div class="flex-shrink-0">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="9" width="26" height="18" stroke="black" stroke-width="1.5" />
+                        <path d="M5 9L18 18L31 9" stroke="black" stroke-width="1.5" />
+                    </svg>
+                </div>
+                <h2 class="text-4xl font-serif">Join our weekly Newsletter</h2>
+            </div>
+
+            <!-- Form elements - Center aligned -->
+            <div class="flex flex-col items-center">
+                <!-- Email Input Field -->
+                <div class="relative w-full max-w-md mb-4">
+                    <label class="absolute text-sm text-gray-600 top-0 right-0">Email Address</label>
+                    <input type="email" class="w-full border-b border-gray-400 bg-transparent outline-none pb-1 pt-6">
+                </div>
+
+                <!-- Signup Button -->
+                <button class="border border-black text-black px-16 py-3 hover:bg-black hover:text-white transition">
+                    SIGN ME UP
+                </button>
+            </div>
+        </div>
+    </div>
+    
     @include('components.footer')
 @endsection
 

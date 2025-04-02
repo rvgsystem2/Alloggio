@@ -590,7 +590,7 @@
                 </div>
             </div>
 
-            <div class="max-w-screen-lg mx-auto px-6 text-center bg-white"
+            <div class="max-w-screen-lg mx-auto px-6 text-center bg-white mt-6"
                 style="font-family: 'Josefin Sans', sans-serif;">
                 <h2 class="text-3xl font-semibold text-gray-900 mb-3">Continental</h2>
                 <p class="text-gray-600 mt-4 text-md max-w-2xl mx-auto leading-relaxed">
