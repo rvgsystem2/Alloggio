@@ -175,7 +175,7 @@
                     <div class="relative group overflow-hidden shadow-xl">
                         <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Gathering"
                             class="w-full h-96 object-cover transform transition duration-300 group-hover:scale-110">
-                        <div class="absolute bottom-20 left-0 bg-white p-8 shadow-2xl w-64">
+                        <div class="absolute bottom-24 left-0 bg-white p-8 shadow-2xl w-72">
                             <h3 class="text-3xl font-semibold">Gathering</h3>
                             <button
                                 class="mt-4 px-8 py-3 text-lg bg-[#b56a5d] text-white shadow-lg hover:bg-[#9c564a] transition">Discover</button>
@@ -185,7 +185,7 @@
                     <div class="relative group overflow-hidden shadow-xl">
                         <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Nice Food"
                             class="w-full h-96 object-cover transform transition duration-300 group-hover:scale-110">
-                        <div class="absolute bottom-20 left-0 bg-white p-8 shadow-2xl w-64">
+                        <div class="absolute bottom-24 left-0 bg-white p-8 shadow-2xl w-72">
                             <h3 class="text-3xl font-semibold">Nice Food</h3>
                             <button
                                 class="mt-4 px-8 py-3 text-lg bg-[#b56a5d] text-white shadow-lg hover:bg-[#9c564a] transition">Taste
@@ -196,7 +196,7 @@
                     <div class="relative group overflow-hidden shadow-xl">
                         <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Explore"
                             class="w-full h-96 object-cover transform transition duration-300 group-hover:scale-110">
-                        <div class="absolute bottom-20 left-0 bg-white p-8 shadow-2xl w-64">
+                        <div class="absolute bottom-24 left-0 bg-white p-8 shadow-2xl w-72">
                             <h3 class="text-3xl font-semibold">Explore</h3>
                             <button
                                 class="mt-4 px-8 py-3 text-lg bg-[#b56a5d] text-white shadow-lg hover:bg-[#9c564a] transition">Adventure</button>
