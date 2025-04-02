@@ -75,105 +75,110 @@
 
     <section class="py-20 bg-[#fdfaf5]">
         <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#2c2c2c]">Why Choose Us</h2>
-                <p class="text-gray-600 mt-2">Discover the benefits of staying with us</p>
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-[#2c2c2c]">Why Choose Us</h2>
+                <p class="text-gray-600 mt-3 text-lg">Discover the benefits of staying with us</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start group">
+                <div class="flex flex-col items-start group space-y-3">
                     <span
-                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
+                        class="material-icons-outlined text-[#b56a5d] text-6xl transition-transform duration-300 group-hover:scale-125">
                         emoji_events
                     </span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
-                            High Rating
-                        </h3>
-                        <p class="text-gray-600">Enjoy top-rated stays with exceptional service and comfort.</p>
-                    </div>
+                    <h3
+                        class="text-xl font-semibold text-[#2c2c2c] transition-colors duration-300 group-hover:text-[#b56a5d]">
+                        High Rating
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Enjoy top-rated stays with exceptional service and comfort.
+                    </p>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start group">
+                <div class="flex flex-col items-start group space-y-3">
                     <span
-                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
+                        class="material-icons-outlined text-[#b56a5d] text-6xl transition-transform duration-300 group-hover:scale-125">
                         nightlife
                     </span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
-                            Quiet Hours
-                        </h3>
-                        <p class="text-gray-600">Relax with a peaceful atmosphere and dedicated quiet hours.</p>
-                    </div>
+                    <h3
+                        class="text-xl font-semibold text-[#2c2c2c] transition-colors duration-300 group-hover:text-[#b56a5d]">
+                        Quiet Hours
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Relax with a peaceful atmosphere and dedicated quiet hours.
+                    </p>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start group">
+                <div class="flex flex-col items-start group space-y-3">
                     <span
-                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
+                        class="material-icons-outlined text-[#b56a5d] text-6xl transition-transform duration-300 group-hover:scale-125">
                         place
                     </span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
-                            Best Locations
-                        </h3>
-                        <p class="text-gray-600">Stay in prime locations close to attractions and essentials.</p>
-                    </div>
+                    <h3
+                        class="text-xl font-semibold text-[#2c2c2c] transition-colors duration-300 group-hover:text-[#b56a5d]">
+                        Best Locations
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Stay in prime locations close to attractions and essentials.
+                    </p>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start group">
+                <div class="flex flex-col items-start group space-y-3">
                     <span
-                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
+                        class="material-icons-outlined text-[#b56a5d] text-6xl transition-transform duration-300 group-hover:scale-125">
                         event_available
                     </span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
-                            Free Cancellation
-                        </h3>
-                        <p class="text-gray-600">Cancel hassle-free with flexible booking policies.</p>
-                    </div>
+                    <h3
+                        class="text-xl font-semibold text-[#2c2c2c] transition-colors duration-300 group-hover:text-[#b56a5d]">
+                        Free Cancellation
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Cancel hassle-free with flexible booking policies.
+                    </p>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start group">
+                <div class="flex flex-col items-start group space-y-3">
                     <span
-                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
+                        class="material-icons-outlined text-[#b56a5d] text-6xl transition-transform duration-300 group-hover:scale-125">
                         credit_card
                     </span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
-                            Payment Options
-                        </h3>
-                        <p class="text-gray-600">Multiple payment methods for a seamless transaction.</p>
-                    </div>
+                    <h3
+                        class="text-xl font-semibold text-[#2c2c2c] transition-colors duration-300 group-hover:text-[#b56a5d]">
+                        Payment Options
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Multiple payment methods for a seamless transaction.
+                    </p>
                 </div>
 
                 <!-- Feature Item -->
-                <div class="flex space-x-4 items-start group">
+                <div class="flex flex-col items-start group space-y-3">
                     <span
-                        class="material-icons-outlined text-[#b56a5d] text-5xl transition-transform group-hover:scale-110">
+                        class="material-icons-outlined text-[#b56a5d] text-6xl transition-transform duration-300 group-hover:scale-125">
                         card_giftcard
                     </span>
-                    <div>
-                        <h3 class="text-lg font-semibold text-[#2c2c2c] group-hover:text-[#b56a5d] transition-colors">
-                            Special Offers
-                        </h3>
-                        <p class="text-gray-600">Exclusive deals and discounts for a great value stay.</p>
-                    </div>
+                    <h3
+                        class="text-xl font-semibold text-[#2c2c2c] transition-colors duration-300 group-hover:text-[#b56a5d]">
+                        Special Offers
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Exclusive deals and discounts for a great value stay.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-
     <div class="bg-[#fdfaf5] relative overflow-hidden">
         <section class="py-20">
             <div class="max-w-7xl mx-auto px-8 text-center relative">
-                <h2 class="text-5xl font-bold text-gray-900">Things to do near</h2>
-                <p class="text-gray-600 text-xl mt-6 max-w-4xl mx-auto">
+                <h2 class="text-4xl font-semibold text-gray-900">Things to do near</h2>
+                <p class="text-gray-600 text-lg mt-6 max-w-4xl mx-auto">
                     Ut condimentum magna ut augue elementum ornare. Fusce posuere massa vitae maximus posuere. Mauris
                     sagittis consectetur vulputate.
                 </p>
