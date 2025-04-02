@@ -51,23 +51,14 @@
         <!-- Video Section -->
         <div class="max-w-5xl mx-auto mt-12">
             <div class="relative">
-                <!-- Background Image -->
-                <img src="{{ asset('asset/images/slide (1).jpg') }}" alt="Video Thumbnail"
-                    class="w-full rounded-lg shadow-lg">
-
-                <!-- Play Button -->
-                <a href="https://vimeo.com/9176224" target="_blank"
-                    class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-lg hover:bg-opacity-50 transition">
-                    <div
-                        class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-gray-900" viewBox="0 0 24 24"
-                            fill="currentColor">
-                            <path d="M8 5v14l11-7z" />
-                        </svg>
-                    </div>
-                </a>
+                <!-- Video Element with Fixed Height -->
+                <video controls class="w-full h-[500px] rounded-lg shadow-lg object-cover">
+                    <source src="{{ asset('asset/Koh-Rooms/video.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
+
     </section>
 
     <section class="py-20 bg-[#fdfaf5]">
