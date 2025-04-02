@@ -630,7 +630,6 @@
                 </div>
             </div>
 
-
             {{-- <div class="bg-gray-50 flex items-center justify-center py-4 px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl w-full bg-white rounded-lg shadow-md p-8 md:p-10">
                     <div class="flex flex-col md:flex-row items-center gap-6 md:gap-8">
