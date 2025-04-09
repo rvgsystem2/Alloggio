@@ -11,13 +11,13 @@
             @include('components.sidebar')
         </div>
 
-        <!-- Main Content --> 
+        <!-- Main Content -->
         <div class="w-full md:w-2/3 lg:w-3/4 relative overflow-hidden">
 
             <!-- Slider Container -->
             <div class="relative w-full h-screen overflow-hidden">
                 <div id="slider" class="relative w-full h-screen">
-                    <!-- Slides -->
+                    <!-- Slide 1 -->
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
                         <img src="{{ asset('asset/images/properties-1.jpeg') }}" alt="Slide Image"
@@ -25,11 +25,13 @@
                         <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2
-                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white/90 px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg min-h-[100px] flex items-center">
                                 House in Tambon Bo Put, Thailand
                             </h2>
                         </div>
                     </div>
+
+                    <!-- Slide 2 -->
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
                         <img src="{{ asset('asset/images/properties-2.jpeg') }}" alt="Slide Image"
@@ -37,11 +39,13 @@
                         <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2
-                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white/90 px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg min-h-[100px] flex items-center">
                                 Apartment in Tambon Bo Put, Thailand
                             </h2>
                         </div>
                     </div>
+
+                    <!-- Slide 3 -->
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
                         <img src="{{ asset('asset/images/properties-3.jpeg') }}" alt="Slide Image"
@@ -49,11 +53,13 @@
                         <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2
-                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white/90 px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg min-h-[100px] flex items-center">
                                 House in Mae Nam, Thailand
                             </h2>
                         </div>
                     </div>
+
+                    <!-- Slide 4 -->
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
                         <img src="{{ asset('asset/images/properties-4.jpeg') }}" alt="Slide Image"
@@ -61,11 +67,13 @@
                         <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2
-                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white/90 px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg min-h-[100px] flex items-center">
                                 Apartment in Ko Samui District
                             </h2>
                         </div>
                     </div>
+
+                    <!-- Slide 5 -->
                     <div class="absolute inset-0 w-full h-full opacity-0 scale-105 transition-all duration-1000 ease-in-out"
                         data-slide>
                         <img src="{{ asset('asset/images/properties-5.jpeg') }}" alt="Slide Image"
@@ -73,7 +81,7 @@
                         <div class="absolute top-1/2 left-0 translate-x-0 -translate-y-1/2 text-left opacity-0 translate-y-5 transition-all duration-1000 ease-in-out"
                             data-text>
                             <h2
-                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+                                class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-serif text-gray-900 bg-white/90 px-4 sm:px-6 md:px-8 py-4 shadow-md max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg min-h-[100px] flex items-center">
                                 Apartment in Ko Samui District
                             </h2>
                         </div>
@@ -86,6 +94,7 @@
                 <button id="nextSlide"
                     class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hidden">&#10095;</button>
             </div>
+
 
             <!-- Booking Container -->
             <div class="w-full flex items-center justify-center my-2 px-4 py-4">
