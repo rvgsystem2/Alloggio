@@ -57,19 +57,19 @@
                         <li>
                             <a href="{{ route('properties') }}"
                                 class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
-                                Property
+                                PROPERTY
                             </a>
                         </li>
                         <li>
                             <a href="{{ route('about.us') }}"
                                 class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
-                                About Us
+                                ABOUT US
                             </a>
                         </li>
                         <li>
                             <a href="{{ route('contact.us') }}"
                                 class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
-                                Contact
+                                CONTACT
                             </a>
                         </li>
                         {{-- <li>
