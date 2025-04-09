@@ -40,23 +40,22 @@
     {{-- Footer --}}
     {{-- @include('components.footer') --}}
 
-    <!-- Bottom-Right Sidebar Buttons with Anchor Tags -->
-    <div class="fixed bottom-30 right-0 flex flex-col items-end space-y-1 z-50 w-40">
+    <!-- Compact Bottom-Right Sidebar Buttons -->
+    <div class="fixed bottom-28 right-0 flex flex-col items-end space-y-1 z-50 w-32">
         <!-- RELATED Button -->
         <a href="#related-section"
-            class="bg-rose-600 text-white px-4 py-2 rounded-l-md flex items-center space-x-2 shadow-md w-full hover:bg-rose-700 transition">
-            <span class="material-symbols-outlined text-white text-lg">quick_reference_all</span>
-            <span class="text-sm font-medium">RELATED</span>
+            class="bg-rose-600 text-white px-3 py-1.5 flex items-center space-x-1.5 shadow-md w-full hover:bg-rose-700 transition text-xs">
+            <span class="material-symbols-outlined text-white text-base">quick_reference_all</span>
+            <span class="font-medium">RELATED</span>
         </a>
 
         <!-- BUY NOW Button -->
         <a href="#buy-now"
-            class="bg-white text-black px-4 py-2 rounded-l-md flex items-center space-x-2 shadow-md w-full hover:bg-gray-100 transition">
-            <span class="material-symbols-outlined text-rose-600 text-lg">shopping_cart</span>
-            <span class="text-sm font-semibold tracking-wider">BUY NOW</span>
+            class="bg-white text-black px-3 py-1.5 flex items-center space-x-1.5 shadow-md w-full hover:bg-gray-100 transition text-xs">
+            <span class="material-symbols-outlined text-rose-600 text-base">shopping_cart</span>
+            <span class="font-semibold tracking-wide">BUY NOW</span>
         </a>
     </div>
-
 
     <!-- Go to Top Button -->
     <button id="goToTop"
