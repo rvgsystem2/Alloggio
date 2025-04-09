@@ -11,7 +11,7 @@
             @include('components.sidebar')
         </div>
 
-        <!-- Main Content -->
+        <!-- Main Content --> 
         <div class="w-full md:w-2/3 lg:w-3/4 relative overflow-hidden">
 
             <!-- Slider Container -->

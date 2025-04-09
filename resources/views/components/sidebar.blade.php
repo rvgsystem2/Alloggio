@@ -31,7 +31,7 @@
 
     <!-- Navigation Links -->
     <nav class="mt-8">
-        <ul class="space-y-5 text-center" id="navMenu">
+        <ul class="space-y-3 text-center" id="navMenu">
             <li>
                 <a href="{{ url('/') }}"
                     class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
@@ -67,6 +67,12 @@
                             </a>
                         </li>
                         <li>
+                            <a href="{{ route('contact.us') }}"
+                                class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
+                                Contact
+                            </a>
+                        </li>
+                        {{-- <li>
                             <a href="{{ route('gallery') }}"
                                 class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
                                 Gallery
@@ -77,16 +83,29 @@
                                 class="flex items-center justify-center text-sm text-gray-600 hover:text-amber-700 transition duration-300">
                                 Blog
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </li>
             <li>
+                <a href="{{ route('gallery') }}"
+                    class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
+                    GALLERY
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('blogs') }}"
+                    class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
+                    BLOG
+                </a>
+            </li>
+
+            {{-- <li>
                 <a href="{{ route('contact.us') }}"
                     class="flex items-center justify-center text-sm text-gray-800 hover:text-amber-700 transition duration-300">
                     CONTACT
                 </a>
-            </li>
+            </li> --}}
         </ul>
     </nav>
 
